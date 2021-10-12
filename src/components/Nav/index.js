@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import styled, {css} from 'styled-components';
+import styled, {css} from 'styled-components/macro';
 import {FaAlignJustify, FaBackspace} from 'react-icons/fa';
 
 function Nav() {
@@ -10,29 +10,26 @@ function Nav() {
     };
 
     return (
-        <div>
+        <>
             <HeaderNav>
-                <div className="menu-icon" id="open">
-                    <button
-                        data-testid="navButton"
-                        aria-label="navButton"
-                        onClick={toggleMenu}>
+                <div>
+                    <button aria-label="Open navigation" onClick={toggleMenu}>
                         <FaAlignJustify />
-                    </button>
 
-                    <span>Menu</span>
+                        <span>Menu</span>
+                    </button>
                 </div>
             </HeaderNav>
             <SidebarSection showMenu={showMenu}>
-                <StyledIcon>
-                    <FaBackspace onClick={toggleMenu} />
-                </StyledIcon>
+                <CloseButton aria-label="Close navigation" onClick={toggleMenu}>
+                    <FaBackspace />
+                </CloseButton>
 
-                <Wrapper>
-                    <MenuTitle>Categories</MenuTitle>
-                </Wrapper>
+                <MenuList>
+                    <MenuItem>Categories</MenuItem>
+                </MenuList>
             </SidebarSection>
-        </div>
+        </>
     );
 }
 
@@ -68,7 +65,7 @@ const SidebarSection = styled.section`
               `}
 `;
 
-const StyledIcon = styled.button`
+const CloseButton = styled.button`
     position: absolute;
     font-size: 15px;
     top: 50px;
@@ -77,12 +74,12 @@ const StyledIcon = styled.button`
     background-color: gray;
 `;
 
-const Wrapper = styled.ul`
+const MenuList = styled.ul`
     margin-top: 100px;
     margin-left: 40px;
 `;
 
-const MenuTitle = styled.li`
+const MenuItem = styled.li`
     font-size: 15px;
 `;
 
