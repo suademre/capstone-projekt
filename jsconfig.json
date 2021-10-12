@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src/"
+    },
+    "include": ["src"],
+    "exclude": [
+        "node_modules",
+        "public",
+        "build",
+        ".storybook",
+        ".husky",
+        ".gitlab-pages",
+        "config",
+        ".vscode",
+        "storybook-static"
+    ]
+}
