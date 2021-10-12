@@ -49,9 +49,9 @@ const HeaderNav = styled.nav`
 const SidebarSection = styled.section`
     position: fixed;
     top: 0;
-    width: 80vw;
+    width: 70vw;
     height: 100vh;
-    background-color: gray;
+    background-color: #f9f9f9;
     z-index: 101;
     transition: left 0.4sn ease;
     padding-right: 120px;
