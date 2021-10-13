@@ -1,10 +1,13 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import styled from 'styled-components/macro';
 
 function MenuItem({category}) {
     return (
         <li>
-            <MenuItemA>{category.title}</MenuItemA>
+            <MenuItemA>
+                <Link to={'/category/' + category.slug}>{category.title}</Link>
+            </MenuItemA>
         </li>
     );
 }
