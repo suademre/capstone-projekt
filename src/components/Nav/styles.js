@@ -20,7 +20,7 @@ export const SidebarSection = styled.section`
     height: 100vh;
     background-color: #f9f9f9;
     z-index: 101;
-    transition: left 0.4sn ease;
+    transition: left 0.4s ease;
     padding-right: 120px;
     ${({showMenu}) =>
         showMenu
@@ -38,12 +38,13 @@ export const CloseButton = styled.button`
     top: 50px;
     left: 50px;
     color: #000;
-    background-color: gray;
+    background-color: #f2f3ee;
 `;
 
 export const MenuList = styled.ul`
     margin-top: 100px;
     margin-left: 40px;
+    list-style: none;
 `;
 
 export const MenuTittle = styled.h3`

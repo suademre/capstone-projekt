@@ -15,14 +15,17 @@ const MenuItemA = styled.a`
     margin: 7px 0;
     color: #000;
     font-weight: bold;
-    letter-spacing: 2px;
-    font-size: 13px;
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
     border-bottom: 1px solid transparent;
     width: fit-content;
     transition: border-bottom, 0.3s ease-in;
     transition: color, 0.3s ease-in;
     &:hover {
         color: white;
+    }
+    &:visited {
+        background-color: #f9f9f9;
     }
 `;
 
