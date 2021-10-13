@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 import {FaAlignJustify, FaBackspace} from 'react-icons/fa';
 
-import {categories} from 'data/category';
+import categories from '../../data/category.json';
 import MenuItem from 'components/Nav/MenuItem';
 import {
     HeaderNav,
