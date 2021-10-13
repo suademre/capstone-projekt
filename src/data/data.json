@@ -1,558 +1,558 @@
 [
-  {
-    "id": "et0",
-    "title": "Flying Low",
-    "price": 105,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_flyinglow_19186_800_800.jpg?cacheID=1629358586000",
-    "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_flyinglow_19187_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 0, "title": "erkek-tisort" },
-    "slug": "flying-low"
-  },
-  {
-    "id": "et1",
-    "title": "Burning Tire",
-    "price": 105,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_burningtire_19166_800_800.jpg?cacheID=1629358586000",
-    "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_burningtire_19169_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 0, "title": "erkek-tisort" },
-    "slug": "burning-tire"
-  },
-  {
-    "id": "et6",
-    "title": "Middernag",
-    "price": 105,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_middernag_19244_800_800.jpg?cacheID=1629358586000",
-    "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_middernag_19247_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 0, "title": "erkek-tisort" },
-    "slug": "middernag"
-  },
-  {
-    "id": "et7",
-    "title": "Ruighinn",
-    "price": 105,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_ruighinn_19029_800_800.jpg?cacheID=1629358586000",
-    "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_ruighinn_19030_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 0, "title": "erkek-tisort" },
-    "slug": "ruighinn"
-  },
-  {
-    "id": "et9",
-    "title": "Ruvag",
-    "price": 105,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_ruvag_19602_800_800.jpg?cacheID=1629358586000",
-    "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_ruvag_19604_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 0, "title": "erkek-tisort" },
-    "slug": "ruvag"
-  },
-  {
-    "id": "et14",
-    "title": "Yama",
-    "price": 120,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_yama_19888_800_800.jpg?cacheID=1629358586000",
-    "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_yama_19891_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 0, "title": "erkek-tisort" },
-    "slug": "yama"
-  },
-  {
-    "id": "et15",
-    "title": "Shield Maiden",
-    "price": 105,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_shieldmaiden_19176_800_800.jpg?cacheID=1629358586000",
-    "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_shieldmaiden_19179_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 0, "title": "erkek-tisort" },
-    "slug": "shield-maiden"
-  },
-  {
-    "id": "et16",
-    "title": "Vanimu",
-    "price": 105,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_vanimu_19598_800_800.jpg?cacheID=1629358586000",
-    "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_vanimu_19599_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 0, "title": "erkek-tisort" },
-    "slug": "vanimu"
-  },
-  {
-    "id": "et18",
-    "title": "Blaska",
-    "price": 120,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_blaska_19107_800_800.jpg?cacheID=1629358586000",
-    "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_blaska_19109_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 0, "title": "erkek-tisort" },
-    "slug": "blaska"
-  },
-  {
-    "id": "et19",
-    "title": "Trebau",
-    "price": 105,
+    {
+        "id": "et0",
+        "title": "Flying Low",
+        "price": 105,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_flyinglow_19186_800_800.jpg?cacheID=1629358586000",
+        "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_flyinglow_19187_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 0, "title": "t-shirt"},
+        "slug": "flying-low"
+    },
+    {
+        "id": "et1",
+        "title": "Burning Tire",
+        "price": 105,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_burningtire_19166_800_800.jpg?cacheID=1629358586000",
+        "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_burningtire_19169_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 0, "title": "t-shirt"},
+        "slug": "burning-tire"
+    },
+    {
+        "id": "et6",
+        "title": "Middernag",
+        "price": 105,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_middernag_19244_800_800.jpg?cacheID=1629358586000",
+        "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_middernag_19247_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 0, "title": "t-shirt"},
+        "slug": "middernag"
+    },
+    {
+        "id": "et7",
+        "title": "Ruighinn",
+        "price": 105,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_ruighinn_19029_800_800.jpg?cacheID=1629358586000",
+        "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_ruighinn_19030_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 0, "title": "t-shirt"},
+        "slug": "ruighinn"
+    },
+    {
+        "id": "et9",
+        "title": "Ruvag",
+        "price": 105,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_ruvag_19602_800_800.jpg?cacheID=1629358586000",
+        "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_ruvag_19604_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 0, "title": "t-shirt"},
+        "slug": "ruvag"
+    },
+    {
+        "id": "et14",
+        "title": "Yama",
+        "price": 120,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_yama_19888_800_800.jpg?cacheID=1629358586000",
+        "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_yama_19891_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 0, "title": "t-shirt"},
+        "slug": "yama"
+    },
+    {
+        "id": "et15",
+        "title": "Shield Maiden",
+        "price": 105,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_shieldmaiden_19176_800_800.jpg?cacheID=1629358586000",
+        "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_shieldmaiden_19179_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 0, "title": "t-shirt"},
+        "slug": "shield-maiden"
+    },
+    {
+        "id": "et16",
+        "title": "Vanimu",
+        "price": 105,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_vanimu_19598_800_800.jpg?cacheID=1629358586000",
+        "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_vanimu_19599_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 0, "title": "t-shirt"},
+        "slug": "vanimu"
+    },
+    {
+        "id": "et18",
+        "title": "Blaska",
+        "price": 120,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_blaska_19107_800_800.jpg?cacheID=1629358586000",
+        "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_blaska_19109_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 0, "title": "t-shirt"},
+        "slug": "blaska"
+    },
+    {
+        "id": "et19",
+        "title": "Trebau",
+        "price": 105,
 
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_trebau_19942_800_800.jpg?cacheID=1629358586000",
-    "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_trebau_19945_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 0, "title": "erkek-tisort" },
-    "slug": "trebau"
-  },
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/tisort_trebau_19942_800_800.jpg?cacheID=1629358586000",
+        "imageBack": "https://www.kaft.com/static/images/cache/800/tisort_trebau_19945_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 0, "title": "t-shirt"},
+        "slug": "trebau"
+    },
 
-  {
-    "id": "bt0",
-    "title": "Regular - Tar",
-    "price": 80,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regulartar_18817_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 1, "title": "basic-tisort" },
-    "slug": "regular-tar"
-  },
-  {
-    "id": "bt1",
-    "title": "Regular - Ocean",
-    "price": 80,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regularocean_18763_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 1, "title": "basic-tisort" },
-    "slug": "regular-ocean"
-  },
-  {
-    "id": "bt2",
-    "title": "Regular - Off White",
-    "price": 80,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regularoffwhite_18773_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 1, "title": "basic-tisort" },
-    "slug": "regular-off-white"
-  },
-  {
-    "id": "bt3",
-    "title": "Regular - Raven",
-    "price": 80,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regularraven_19837_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 1, "title": "basic-tisort" },
-    "slug": "regular-raven"
-  },
-  {
-    "id": "bt4",
-    "title": "Regular - Jungle",
-    "price": 80,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regularjungle_18747_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 1, "title": "basic-tisort" },
-    "slug": "regular-jungle"
-  },
-  {
-    "id": "bt5",
-    "title": "Regular - Bone",
-    "price": 80,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regularbone_18715_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 1, "title": "basic-tisort" },
-    "slug": "regular-bone"
-  },
-  {
-    "id": "bt6",
-    "title": "Regular - Asphalt",
-    "price": 80,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regularasphalt_18699_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 1, "title": "basic-tisort" },
-    "slug": "regular-asphalt"
-  },
-  {
-    "id": "bt7",
-    "title": "Regular - Storm",
-    "price": 80,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regularstorm_18787_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 1, "title": "basic-tisort" },
-    "slug": "regular-storm"
-  },
-  {
-    "id": "bt8",
-    "title": "Relax - Tar",
-    "price": 95,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_relaxtar_19574_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 1, "title": "basic-tisort" },
-    "slug": "relax-tar"
-  },
-  {
-    "id": "bt9",
-    "title": "Regular - Brick",
-    "price": 80,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regularbrick_18831_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 1, "title": "basic-tisort" },
-    "slug": "regular-brick"
-  },
-  {
-    "id": "es0",
-    "title": "Wuma - Asphalt",
-    "price": 185,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_wumaasphalt_20081_800_800.jpg?cacheID=1630680437000",
-    "category": { "id": 2, "title": "erkek-sort" },
-    "slug": "wuma-asphalt"
-  },
-  {
-    "id": "es1",
-    "title": "Wuma - Concrete",
-    "price": 185,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_wumaconcrete_20105_800_800.jpg?cacheID=1630680437000",
-    "category": { "id": 2, "title": "erkek-sort" },
-    "slug": "wuma-concrete"
-  },
-  {
-    "id": "es2",
-    "title": "Wuma - Storm",
-    "price": 185,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_wumastorm_20093_800_800.jpg?cacheID=1630680437000",
-    "category": { "id": 2, "title": "erkek-sort" },
-    "slug": "wuma-storm"
-  },
-  {
-    "id": "es3",
-    "title": "Wuma - Ocean",
-    "price": 185,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_wumaocean_20087_800_800.jpg?cacheID=1630680437000",
-    "category": { "id": 2, "title": "erkek-sort" },
-    "slug": "wuma-ocean"
-  },
-  {
-    "id": "es4",
-    "title": "Wuma - Coral",
-    "price": 185,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_wumacoral_20099_800_800.jpg?cacheID=1630680437000",
-    "category": { "id": 2, "title": "erkek-sort" },
-    "slug": "wuma-coral"
-  },
-  {
-    "id": "es5",
-    "title": "Kout - Concrete",
-    "price": 225,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_koutconcrete_17399_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 2, "title": "erkek-sort" },
-    "slug": "kout-concrete"
-  },
-  {
-    "id": "es6",
-    "title": "Kout - Storm",
-    "price": 225,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_koutstorm_17383_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 2, "title": "erkek-sort" },
-    "slug": "kout-storm"
-  },
-  {
-    "id": "es7",
-    "title": "Kout - Asphalt",
-    "price": 225,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_koutasphalt_17367_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 2, "title": "erkek-sort" },
-    "slug": "kout-asphalt"
-  },
-  {
-    "id": "es8",
-    "title": "Kout - Sulphur",
-    "price": 225,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_koutsulphur_17391_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 2, "title": "erkek-sort" },
-    "slug": "kout-sulphur"
-  },
-  {
-    "id": "es9",
-    "title": "Kout - Jungle",
-    "price": 225,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_koutjungle_17375_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 2, "title": "erkek-sort" },
-    "slug": "kout-jungle"
-  },
-  {
-    "id": "ep0",
-    "title": "Panoha - Asphalt",
-    "price": 280,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/pantolon_panohaasphalt_17294_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 3, "title": "erkek-pantolon" },
-    "slug": "panoha-asphalt"
-  },
-  {
-    "id": "ep1",
-    "title": "Panoha - Ocean",
-    "price": 280,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/pantolon_panohaocean_17316_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 3, "title": "erkek-pantolon" },
-    "slug": "panoha-ocean"
-  },
-  {
-    "id": "ep2",
-    "title": "Panoha - Storm",
-    "price": 280,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/pantolon_panohastorm_17283_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 3, "title": "erkek-pantolon" },
-    "slug": "panoha-storm"
-  },
-  {
-    "id": "ep3",
-    "title": "Panoha - Concrete",
-    "price": 280,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/pantolon_panohaconcrete_17305_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 3, "title": "erkek-pantolon" },
-    "slug": "panoha-concrete"
-  },
-  {
-    "id": "ce0",
-    "title": "Pakaru - Tar",
-    "price": 280,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/ceket_pakarutar_17243_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 4, "title": "ceket" },
-    "slug": "pakaru-tar"
-  },
-  {
-    "id": "ce1",
-    "title": "Pakaru - Sulphur",
-    "price": 280,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/ceket_pakarusulphur_17253_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 4, "title": "ceket" },
-    "slug": "pakaru-sulphur"
-  },
-  {
-    "id": "ce2",
-    "title": "Pakaru - Concrete",
-    "price": 480,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/ceket_pakaruconcrete_17263_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 4, "title": "ceket" },
-    "slug": "pakaru-concrete"
-  },
-  {
-    "id": "ce3",
-    "title": "Pakaru - Coral",
-    "price": 480,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/ceket_pakarucoral_17273_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 4, "title": "ceket" },
-    "slug": "pakaru-coral"
-  },
-  {
-    "id": "kk0",
-    "title": "Oileka - Mint",
-    "price": 275,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_oilekamint_17237_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 5, "title": "kapsonlu-kapsonlu" },
-    "slug": "oileka-mint"
-  },
-  {
-    "id": "kk1",
-    "title": "Xpocket - Raven",
-    "price": 275,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_xpocketraven_17198_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 5, "title": "kapsonlu-kapsonlu" },
-    "slug": "xpocket-raven"
-  },
-  {
-    "id": "kk2",
-    "title": "Apenda - Ocean",
-    "price": 275,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_apendaocean_17184_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 5, "title": "kapsonlu-kapsonlu" },
-    "slug": "apenda-ocean"
-  },
-  {
-    "id": "kk3",
-    "title": "Apenda - Brick",
-    "price": 275,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_apendabrick_17163_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 5, "title": "kapsonlu-kapsonlu" },
-    "slug": "apenda-brick"
-  },
-  {
-    "id": "kk4",
-    "title": "Apenda - Jungle",
-    "price": 275,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_apendajungle_17170_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 5, "title": "kapsonlu-kapsonlu" },
-    "slug": "apenda-jungle"
-  },
-  {
-    "id": "kk5",
-    "title": "Xpocket - Tar",
-    "price": 275,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_xpockettar_17218_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 5, "title": "kapsonlu-kapsonlu" },
-    "slug": "xpocket-tar"
-  },
-  {
-    "id": "kk6",
-    "title": "Apenda - Concrete",
-    "price": 275,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_apendaconcrete_17177_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 5, "title": "kapsonlu-kapsonlu" },
-    "slug": "apenda-concrete"
-  },
-  {
-    "id": "kk7",
-    "title": "Apenda - Sulphur",
-    "price": 275,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_apendasulphur_17156_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 5, "title": "kapsonlu-kapsonlu" },
-    "slug": "apenda-sulphur"
-  },
-  {
-    "id": "kk8",
-    "title": "Xpocket - Jungle",
-    "price": 275,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_xpocketjungle_17191_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 5, "title": "kapsonlu-kapsonlu" },
-    "slug": "xpocket-jungle"
-  },
-  {
-    "id": "kk9",
-    "title": "Xpocket - Coral",
-    "price": 275,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_xpocketcoral_17204_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 5, "title": "kapsonlu-kapsonlu" },
-    "slug": "xpocket-coral"
-  },
-  {
-    "id": "fk0",
-    "title": "Zipper - Brick",
-    "price": 325,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_zipperbrick_19780_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 6, "title": "fermuarli-kapsonlu" },
-    "slug": "zipper-brick"
-  },
-  {
-    "id": "fk1",
-    "title": "Zipper - Tar",
-    "price": 325,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_zippertar_19708_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 6, "title": "fermuarli-kapsonlu" },
-    "slug": "zipper-tar"
-  },
-  {
-    "id": "fk2",
-    "title": "Zipper - Jungle",
-    "price": 325,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_zipperjungle_19748_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 6, "title": "fermuarli-kapsonlu" },
-    "slug": "zipper-jungle"
-  },
-  {
-    "id": "fk3",
-    "title": "Zipper - Sulphur",
-    "price": 325,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_zippersulphur_19756_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 6, "title": "fermuarli-kapsonlu" },
-    "slug": "zipper-sulphur"
-  },
-  {
-    "id": "fk4",
-    "title": "Zipper - Coral",
-    "price": 325,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_zippercoral_19764_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 6, "title": "fermuarli-kapsonlu" },
-    "slug": "zipper-coral"
-  },
-  {
-    "id": "fk5",
-    "title": "Zipper - Turquois",
-    "price": 325,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_zipperturquois_19772_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 6, "title": "fermuarli-kapsonlu" },
-    "slug": "zipper-turquois"
-  },
-  {
-    "id": "fk6",
-    "title": "Kleuzip - Tar",
-    "price": 325,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_kleuziptar_19814_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 6, "title": "fermuarli-kapsonlu" },
-    "slug": "kleuzip-tar"
-  },
-  {
-    "id": "fk7",
-    "title": "Kleuzip - Coral",
-    "price": 325,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_kleuzipcoral_19788_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 6, "title": "fermuarli-kapsonlu" },
-    "slug": "kleuzip-coral"
-  },
-  {
-    "id": "fk8",
-    "title": "Kleuzip - Turquois",
-    "price": 325,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_kleuzipturquois_19795_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 6, "title": "fermuarli-kapsonlu" },
-    "slug": "kleuzip-turquois"
-  },
-  {
-    "id": "sw0",
-    "title": "Ruga - Tar",
-    "price": 195,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_rugatar_17919_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 7, "title": "sweatshirt" },
-    "slug": "ruga-tar"
-  },
-  {
-    "id": "sw1",
-    "title": "Ruga - Raven",
-    "price": 195,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_rugaraven_17927_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 7, "title": "sweatshirt" },
-    "slug": "ruga-raven"
-  },
-  {
-    "id": "sw2",
-    "title": "Ruga - Coral",
-    "price": 195,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_rugacoral_17951_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 7, "title": "sweatshirt" },
-    "slug": "ruga-coral"
-  },
-  {
-    "id": "sw3",
-    "title": "Ruga - Concrete",
-    "price": 195,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_rugaconcrete_17959_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 7, "title": "sweatshirt" },
-    "slug": "ruga-concrete"
-  },
-  {
-    "id": "sw4",
-    "title": "Flowinga - Asphalt",
-    "price": 235,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_flowingaasphalt_17847_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 7, "title": "sweatshirt" },
-    "slug": "flowinga-asphalt"
-  },
-  {
-    "id": "sw5",
-    "title": "Ruga - Jungle",
-    "price": 195,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_rugajungle_17935_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 7, "title": "sweatshirt" },
-    "slug": "ruga-jungle"
-  },
-  {
-    "id": "sw6",
-    "title": "Vrtt",
-    "price": 180,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_vrtt_17812_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 7, "title": "sweatshirt" },
-    "slug": "vrtt"
-  },
-  {
-    "id": "sw7",
-    "title": "Horizon - Brick",
-    "price": 215,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_horizonbrick_17883_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 7, "title": "sweatshirt" },
-    "slug": "horizon-brick"
-  },
-  {
-    "id": "sw8",
-    "title": "Ruga - Turquois",
-    "price": 195,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_rugaturquois_17983_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 7, "title": "sweatshirt" },
-    "slug": "ruga-turquois"
-  },
-  {
-    "id": "sw9",
-    "title": "Ruga - Sulphur",
-    "price": 195,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_rugasulphur_17943_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 7, "title": "sweatshirt" },
-    "slug": "ruga-sulphur"
-  },
-  {
-    "id": "sw10",
-    "title": "Horizon - Tar",
-    "price": 215,
-    "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_horizontar_17901_800_800.jpg?cacheID=1629358586000",
-    "category": { "id": 7, "title": "sweatshirt" },
-    "slug": "horizon-tar"
-  }
+    {
+        "id": "bt0",
+        "title": "Regular - Tar",
+        "price": 80,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regulartar_18817_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 1, "title": "basic-shirt"},
+        "slug": "regular-tar"
+    },
+    {
+        "id": "bt1",
+        "title": "Regular - Ocean",
+        "price": 80,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regularocean_18763_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 1, "title": "basic-shirt"},
+        "slug": "regular-ocean"
+    },
+    {
+        "id": "bt2",
+        "title": "Regular - Off White",
+        "price": 80,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regularoffwhite_18773_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 1, "title": "basic-shirt"},
+        "slug": "regular-off-white"
+    },
+    {
+        "id": "bt3",
+        "title": "Regular - Raven",
+        "price": 80,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regularraven_19837_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 1, "title": "basic-shirt"},
+        "slug": "regular-raven"
+    },
+    {
+        "id": "bt4",
+        "title": "Regular - Jungle",
+        "price": 80,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regularjungle_18747_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 1, "title": "basic-shirt"},
+        "slug": "regular-jungle"
+    },
+    {
+        "id": "bt5",
+        "title": "Regular - Bone",
+        "price": 80,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regularbone_18715_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 1, "title": "basic-shirt"},
+        "slug": "regular-bone"
+    },
+    {
+        "id": "bt6",
+        "title": "Regular - Asphalt",
+        "price": 80,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regularasphalt_18699_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 1, "title": "basic-shirt"},
+        "slug": "regular-asphalt"
+    },
+    {
+        "id": "bt7",
+        "title": "Regular - Storm",
+        "price": 80,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regularstorm_18787_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 1, "title": "basic-shirt"},
+        "slug": "regular-storm"
+    },
+    {
+        "id": "bt8",
+        "title": "Relax - Tar",
+        "price": 95,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_relaxtar_19574_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 1, "title": "basic-shirt"},
+        "slug": "relax-tar"
+    },
+    {
+        "id": "bt9",
+        "title": "Regular - Brick",
+        "price": 80,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/basictisort_regularbrick_18831_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 1, "title": "basic-shirt"},
+        "slug": "regular-brick"
+    },
+    {
+        "id": "es0",
+        "title": "Wuma - Asphalt",
+        "price": 185,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_wumaasphalt_20081_800_800.jpg?cacheID=1630680437000",
+        "category": {"id": 2, "title": "shorts"},
+        "slug": "wuma-asphalt"
+    },
+    {
+        "id": "es1",
+        "title": "Wuma - Concrete",
+        "price": 185,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_wumaconcrete_20105_800_800.jpg?cacheID=1630680437000",
+        "category": {"id": 2, "title": "shorts"},
+        "slug": "wuma-concrete"
+    },
+    {
+        "id": "es2",
+        "title": "Wuma - Storm",
+        "price": 185,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_wumastorm_20093_800_800.jpg?cacheID=1630680437000",
+        "category": {"id": 2, "title": "shorts"},
+        "slug": "wuma-storm"
+    },
+    {
+        "id": "es3",
+        "title": "Wuma - Ocean",
+        "price": 185,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_wumaocean_20087_800_800.jpg?cacheID=1630680437000",
+        "category": {"id": 2, "title": "shorts"},
+        "slug": "wuma-ocean"
+    },
+    {
+        "id": "es4",
+        "title": "Wuma - Coral",
+        "price": 185,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_wumacoral_20099_800_800.jpg?cacheID=1630680437000",
+        "category": {"id": 2, "title": "shorts"},
+        "slug": "wuma-coral"
+    },
+    {
+        "id": "es5",
+        "title": "Kout - Concrete",
+        "price": 225,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_koutconcrete_17399_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 2, "title": "shorts"},
+        "slug": "kout-concrete"
+    },
+    {
+        "id": "es6",
+        "title": "Kout - Storm",
+        "price": 225,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_koutstorm_17383_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 2, "title": "shorts"},
+        "slug": "kout-storm"
+    },
+    {
+        "id": "es7",
+        "title": "Kout - Asphalt",
+        "price": 225,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_koutasphalt_17367_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 2, "title": "shorts"},
+        "slug": "kout-asphalt"
+    },
+    {
+        "id": "es8",
+        "title": "Kout - Sulphur",
+        "price": 225,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_koutsulphur_17391_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 2, "title": "shorts"},
+        "slug": "kout-sulphur"
+    },
+    {
+        "id": "es9",
+        "title": "Kout - Jungle",
+        "price": 225,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/shorts_koutjungle_17375_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 2, "title": "shorts"},
+        "slug": "kout-jungle"
+    },
+    {
+        "id": "ep0",
+        "title": "Panoha - Asphalt",
+        "price": 280,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/pantolon_panohaasphalt_17294_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 3, "title": "trousers"},
+        "slug": "panoha-asphalt"
+    },
+    {
+        "id": "ep1",
+        "title": "Panoha - Ocean",
+        "price": 280,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/pantolon_panohaocean_17316_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 3, "title": "trousers"},
+        "slug": "panoha-ocean"
+    },
+    {
+        "id": "ep2",
+        "title": "Panoha - Storm",
+        "price": 280,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/pantolon_panohastorm_17283_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 3, "title": "trousers"},
+        "slug": "panoha-storm"
+    },
+    {
+        "id": "ep3",
+        "title": "Panoha - Concrete",
+        "price": 280,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/pantolon_panohaconcrete_17305_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 3, "title": "trousers"},
+        "slug": "panoha-concrete"
+    },
+    {
+        "id": "ce0",
+        "title": "Pakaru - Tar",
+        "price": 280,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/ceket_pakarutar_17243_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 4, "title": "jacket"},
+        "slug": "pakaru-tar"
+    },
+    {
+        "id": "ce1",
+        "title": "Pakaru - Sulphur",
+        "price": 280,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/ceket_pakarusulphur_17253_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 4, "title": "jacket"},
+        "slug": "pakaru-sulphur"
+    },
+    {
+        "id": "ce2",
+        "title": "Pakaru - Concrete",
+        "price": 480,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/ceket_pakaruconcrete_17263_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 4, "title": "jacket"},
+        "slug": "pakaru-concrete"
+    },
+    {
+        "id": "ce3",
+        "title": "Pakaru - Coral",
+        "price": 480,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/ceket_pakarucoral_17273_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 4, "title": "jacket"},
+        "slug": "pakaru-coral"
+    },
+    {
+        "id": "kk0",
+        "title": "Oileka - Mint",
+        "price": 275,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_oilekamint_17237_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 5, "title": "hooded-sweatshirt"},
+        "slug": "oileka-mint"
+    },
+    {
+        "id": "kk1",
+        "title": "Xpocket - Raven",
+        "price": 275,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_xpocketraven_17198_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 5, "title": "hooded-sweatshirt"},
+        "slug": "xpocket-raven"
+    },
+    {
+        "id": "kk2",
+        "title": "Apenda - Ocean",
+        "price": 275,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_apendaocean_17184_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 5, "title": "hooded-sweatshirt"},
+        "slug": "apenda-ocean"
+    },
+    {
+        "id": "kk3",
+        "title": "Apenda - Brick",
+        "price": 275,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_apendabrick_17163_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 5, "title": "hooded-sweatshirt"},
+        "slug": "apenda-brick"
+    },
+    {
+        "id": "kk4",
+        "title": "Apenda - Jungle",
+        "price": 275,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_apendajungle_17170_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 5, "title": "hooded-sweatshirt"},
+        "slug": "apenda-jungle"
+    },
+    {
+        "id": "kk5",
+        "title": "Xpocket - Tar",
+        "price": 275,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_xpockettar_17218_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 5, "title": "hooded-sweatshirt"},
+        "slug": "xpocket-tar"
+    },
+    {
+        "id": "kk6",
+        "title": "Apenda - Concrete",
+        "price": 275,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_apendaconcrete_17177_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 5, "title": "hooded-sweatshirt"},
+        "slug": "apenda-concrete"
+    },
+    {
+        "id": "kk7",
+        "title": "Apenda - Sulphur",
+        "price": 275,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_apendasulphur_17156_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 5, "title": "hooded-sweatshirt"},
+        "slug": "apenda-sulphur"
+    },
+    {
+        "id": "kk8",
+        "title": "Xpocket - Jungle",
+        "price": 275,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_xpocketjungle_17191_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 5, "title": "hooded-sweatshirt"},
+        "slug": "xpocket-jungle"
+    },
+    {
+        "id": "kk9",
+        "title": "Xpocket - Coral",
+        "price": 275,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_xpocketcoral_17204_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 5, "title": "hooded-sweatshirt"},
+        "slug": "xpocket-coral"
+    },
+    {
+        "id": "fk0",
+        "title": "Zipper - Brick",
+        "price": 325,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_zipperbrick_19780_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 6, "title": "zipper-sweatshirt"},
+        "slug": "zipper-brick"
+    },
+    {
+        "id": "fk1",
+        "title": "Zipper - Tar",
+        "price": 325,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_zippertar_19708_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 6, "title": "zipper-sweatshirt"},
+        "slug": "zipper-tar"
+    },
+    {
+        "id": "fk2",
+        "title": "Zipper - Jungle",
+        "price": 325,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_zipperjungle_19748_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 6, "title": "zipper-sweatshirt"},
+        "slug": "zipper-jungle"
+    },
+    {
+        "id": "fk3",
+        "title": "Zipper - Sulphur",
+        "price": 325,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_zippersulphur_19756_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 6, "title": "zipper-sweatshirt"},
+        "slug": "zipper-sulphur"
+    },
+    {
+        "id": "fk4",
+        "title": "Zipper - Coral",
+        "price": 325,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_zippercoral_19764_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 6, "title": "zipper-sweatshirt"},
+        "slug": "zipper-coral"
+    },
+    {
+        "id": "fk5",
+        "title": "Zipper - Turquois",
+        "price": 325,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_zipperturquois_19772_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 6, "title": "zipper-sweatshirt"},
+        "slug": "zipper-turquois"
+    },
+    {
+        "id": "fk6",
+        "title": "Kleuzip - Tar",
+        "price": 325,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_kleuziptar_19814_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 6, "title": "zipper-sweatshirt"},
+        "slug": "kleuzip-tar"
+    },
+    {
+        "id": "fk7",
+        "title": "Kleuzip - Coral",
+        "price": 325,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_kleuzipcoral_19788_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 6, "title": "zipper-sweatshirt"},
+        "slug": "kleuzip-coral"
+    },
+    {
+        "id": "fk8",
+        "title": "Kleuzip - Turquois",
+        "price": 325,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/kapsonlu_kleuzipturquois_19795_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 6, "title": "zipper-sweatshirt"},
+        "slug": "kleuzip-turquois"
+    },
+    {
+        "id": "sw0",
+        "title": "Ruga - Tar",
+        "price": 195,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_rugatar_17919_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 7, "title": "sweatshirt"},
+        "slug": "ruga-tar"
+    },
+    {
+        "id": "sw1",
+        "title": "Ruga - Raven",
+        "price": 195,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_rugaraven_17927_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 7, "title": "sweatshirt"},
+        "slug": "ruga-raven"
+    },
+    {
+        "id": "sw2",
+        "title": "Ruga - Coral",
+        "price": 195,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_rugacoral_17951_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 7, "title": "sweatshirt"},
+        "slug": "ruga-coral"
+    },
+    {
+        "id": "sw3",
+        "title": "Ruga - Concrete",
+        "price": 195,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_rugaconcrete_17959_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 7, "title": "sweatshirt"},
+        "slug": "ruga-concrete"
+    },
+    {
+        "id": "sw4",
+        "title": "Flowinga - Asphalt",
+        "price": 235,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_flowingaasphalt_17847_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 7, "title": "sweatshirt"},
+        "slug": "flowinga-asphalt"
+    },
+    {
+        "id": "sw5",
+        "title": "Ruga - Jungle",
+        "price": 195,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_rugajungle_17935_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 7, "title": "sweatshirt"},
+        "slug": "ruga-jungle"
+    },
+    {
+        "id": "sw6",
+        "title": "Vrtt",
+        "price": 180,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_vrtt_17812_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 7, "title": "sweatshirt"},
+        "slug": "vrtt"
+    },
+    {
+        "id": "sw7",
+        "title": "Horizon - Brick",
+        "price": 215,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_horizonbrick_17883_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 7, "title": "sweatshirt"},
+        "slug": "horizon-brick"
+    },
+    {
+        "id": "sw8",
+        "title": "Ruga - Turquois",
+        "price": 195,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_rugaturquois_17983_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 7, "title": "sweatshirt"},
+        "slug": "ruga-turquois"
+    },
+    {
+        "id": "sw9",
+        "title": "Ruga - Sulphur",
+        "price": 195,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_rugasulphur_17943_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 7, "title": "sweatshirt"},
+        "slug": "ruga-sulphur"
+    },
+    {
+        "id": "sw10",
+        "title": "Horizon - Tar",
+        "price": 215,
+        "imageFrond": "https://www.kaft.com/static/images/cache/800/sweatshirt_horizontar_17901_800_800.jpg?cacheID=1629358586000",
+        "category": {"id": 7, "title": "sweatshirt"},
+        "slug": "horizon-tar"
+    }
 ]
