@@ -1,66 +1,66 @@
 [
-  {
-    "id": 0,
-    "slug": "erkek-tisort",
-    "icon": "",
-    "title": "Erkek Tisort",
-    "description": "Bir avuç insan kalmıştık varlığımızı kutlayacak ve bildiğimiz tüm dilleri unutmuştuk.",
-    "size": ["S", "M", "L", "XL", "2XL"]
-  },
-  {
-    "id": 1,
-    "slug": "basic-tisort",
-    "icon": "",
-    "title": "Basit Tisort",
-    "description": "Kaft'ın en sade hali. Aynı kalıp, aynı kumaş, aynı kalitedeki tişörtü dilersen desensiz basic olarak da alabilirsin.",
-    "size": ["S", "M", "L", "XL", "2XL"]
-  },
-  {
-    "id": 2,
-    "slug": "erkek-sort",
-    "icon": "",
-    "title": "Erkek Sort",
-    "description": "Günün her anına uyum sağlayan örme şort modeli. Evde takılmalarda, bir koşu dışarı çıkışlarda ya da iki dakika arkadaşların yanına uğramalarda sana eşlik eder. Beli lastikli. Hem yandan hem de arkadan cepli. Detaylarda kontrast renklerin keyifli uyumu var. Gün içinde giy çıkar dertleriyle uğraşmak istemeyenlere.",
-    "size": ["S", "M", "L", "XL", "2XL"]
-  },
-  {
-    "id": 3,
-    "slug": "erkek-pantolon",
-    "icon": "",
-    "title": "Erkek Pantolon",
-    "description": "Tarzını rahatlığından alan bir model. Diğer yandan bukalemun gibi. Ev, arkadaş ortamı, doğa yürüyüşü, hızlı giy çık anlarının tamamına gider. Beli ve paçası lastikli, kordonu da kendi kumaşından. Kemer takmak veya paça boyu derdinden kurtarıyor, rahat bir kullanım şansı veriyor.",
-    "size": ["S", "M", "L", "XL", "2XL"]
-  },
-  {
-    "id": 4,
-    "slug": "ceket",
-    "icon": "",
-    "title": "Ceket",
-    "description": "Rüzgarlı havalarda rahatlıkla giyip dolaşabileceğin, su itici özelliğiyle de hafif yağmurda seni yalnız bırakmayacak bir ürün olarak tasarlandı. Ayarlanabilir bölümlere bolca yer verdik. Günlük yaşama ve aksiyonlara uygun, rahat bir kalıba sahip.",
-    "size": ["XS", "S", "M", "L", "XL", "2XL"]
-  },
-  {
-    "id": 5,
-    "slug": "kapsonlu-kapsonlu",
-    "icon": "",
-    "title": "Kapşonlu",
-    "description": "Bu seri için birbiriyle uyumlu renkleri, kollarda bir araya getirdik. Kaft'ın X formundan yararlandık. Elleri birbirine kavuşturan geniş cebine ufak tefek eşyalarını koyabilirsin. Pamuklu ve yumuşak kumaşı rahattır; her mevsime uyum sağlar.",
-    "size": ["XS", "S", "M", "L", "XL", "2XL"]
-  },
-  {
-    "id": 6,
-    "slug": "fermuarli-kapsonlu",
-    "icon": "",
-    "title": "Fermuarlı Kapşonlu",
-    "description": "Havalar serinlediğinde giyebileceğin, tasarım tişörtlerinle uyumlu, sade ve kullanışlı bir seçenek olarak hazırlandı.",
-    "size": ["XS", "S", "M", "L", "XL", "2XL"]
-  },
-  {
-    "id": 7,
-    "slug": "sweatshirt",
-    "icon": "",
-    "title": "Sweatshirt",
-    "description": "Sweatshirtün en sade hali. Hafif serin havalarda, pamuklu kumaşı seni her zaman hafif hissettirsin.",
-    "size": ["XS", "S", "M", "L", "XL", "2XL"]
-  }
+    {
+        "id": 0,
+        "slug": "t-shirt",
+        "icon": "",
+        "title": "T-shirt",
+        "description": "Bir avuç insan kalmıştık varlığımızı kutlayacak ve bildiğimiz tüm dilleri unutmuştuk.",
+        "size": ["S", "M", "L", "XL", "2XL"]
+    },
+    {
+        "id": 1,
+        "slug": "basic-shirt",
+        "icon": "",
+        "title": "Basit T-shirt",
+        "description": "Kaft'ın en sade hali. Aynı kalıp, aynı kumaş, aynı kalitedeki tişörtü dilersen desensiz basic olarak da alabilirsin.",
+        "size": ["S", "M", "L", "XL", "2XL"]
+    },
+    {
+        "id": 2,
+        "slug": "shorts",
+        "icon": "",
+        "title": "Shorts",
+        "description": "Günün her anına uyum sağlayan örme şort modeli. Evde takılmalarda, bir koşu dışarı çıkışlarda ya da iki dakika arkadaşların yanına uğramalarda sana eşlik eder. Beli lastikli. Hem yandan hem de arkadan cepli. Detaylarda kontrast renklerin keyifli uyumu var. Gün içinde giy çıkar dertleriyle uğraşmak istemeyenlere.",
+        "size": ["S", "M", "L", "XL", "2XL"]
+    },
+    {
+        "id": 3,
+        "slug": "trousers",
+        "icon": "",
+        "title": "Trousers",
+        "description": "Tarzını rahatlığından alan bir model. Diğer yandan bukalemun gibi. Ev, arkadaş ortamı, doğa yürüyüşü, hızlı giy çık anlarının tamamına gider. Beli ve paçası lastikli, kordonu da kendi kumaşından. Kemer takmak veya paça boyu derdinden kurtarıyor, rahat bir kullanım şansı veriyor.",
+        "size": ["S", "M", "L", "XL", "2XL"]
+    },
+    {
+        "id": 4,
+        "slug": "jacket",
+        "icon": "",
+        "title": "Jacket",
+        "description": "Rüzgarlı havalarda rahatlıkla giyip dolaşabileceğin, su itici özelliğiyle de hafif yağmurda seni yalnız bırakmayacak bir ürün olarak tasarlandı. Ayarlanabilir bölümlere bolca yer verdik. Günlük yaşama ve aksiyonlara uygun, rahat bir kalıba sahip.",
+        "size": ["XS", "S", "M", "L", "XL", "2XL"]
+    },
+    {
+        "id": 5,
+        "slug": "hooded-sweatshirt",
+        "icon": "",
+        "title": "Hooded Sweatshirt",
+        "description": "Bu seri için birbiriyle uyumlu renkleri, kollarda bir araya getirdik. Kaft'ın X formundan yararlandık. Elleri birbirine kavuşturan geniş cebine ufak tefek eşyalarını koyabilirsin. Pamuklu ve yumuşak kumaşı rahattır; her mevsime uyum sağlar.",
+        "size": ["XS", "S", "M", "L", "XL", "2XL"]
+    },
+    {
+        "id": 6,
+        "slug": "zipper-sweatshirt",
+        "icon": "",
+        "title": "Zipper Sweatshirt",
+        "description": "Havalar serinlediğinde giyebileceğin, tasarım tişörtlerinle uyumlu, sade ve kullanışlı bir seçenek olarak hazırlandı.",
+        "size": ["XS", "S", "M", "L", "XL", "2XL"]
+    },
+    {
+        "id": 7,
+        "slug": "sweatshirt",
+        "icon": "",
+        "title": "Sweatshirt",
+        "description": "Sweatshirtün en sade hali. Hafif serin havalarda, pamuklu kumaşı seni her zaman hafif hissettirsin.",
+        "size": ["XS", "S", "M", "L", "XL", "2XL"]
+    }
 ]
