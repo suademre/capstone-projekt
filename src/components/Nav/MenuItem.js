@@ -23,6 +23,7 @@ const MenuItemA = styled.a`
     transition: color, 0.3s ease-in;
     &:hover {
         color: white;
+        background-color: #cd5c5c;
     }
     &:visited {
         background-color: #f9f9f9;
