@@ -10,7 +10,7 @@ const Template = (args) => <Categories {...args} />;
 
 export const CategoryItems = Template.bind({});
 CategoryItems.args = {
-    index: '1',
+    id: '1',
     product: {
         imageFrond: placeholder,
         title: 'Flying Low',

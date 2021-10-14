@@ -1,21 +1,23 @@
 import React, {useEffect, useState} from 'react';
 import styled from 'styled-components/macro';
-import Products from '../../data/data.json';
+import initialProductData from '../../data/data.json';
 
 function Categories(props) {
     const [products, setProducts] = useState([]);
 
+    const slug = props.match.params.slug;
+
     useEffect(() => {
-        let items = Products.filter(
-            (Product) => Product.category.title === props.match.params.slug
+        const items = initialProductData.filter(
+            (product) => product.category.title === slug
         );
         setProducts(items);
-    }, [props.match.params.slug]);
+    }, [slug]);
 
     return (
         <CardSection>
-            {products.map((product, index) => (
-                <CardDiv key={index}>
+            {products.map((product, id) => (
+                <CardDiv key={id}>
                     <CardImg src={product.imageFrond} alt={product.title} />
 
                     <CardInfo>
