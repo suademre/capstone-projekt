@@ -1,15 +1,18 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import styled from 'styled-components/macro';
 
 function MenuItem({category}) {
     return (
-        <li>
-            <MenuItemA>{category.title}</MenuItemA>
-        </li>
+        <MenuItemA>
+            <Link to={'/category/' + category.slug}>{category.title}</Link>
+        </MenuItemA>
     );
 }
 
-const MenuItemA = styled.a`
+const MenuItemA = styled.li`
+    text-decoration: none;
+    list-style: none;
     display: inline-block;
     padding: 7px 0;
     margin: 7px 0;
