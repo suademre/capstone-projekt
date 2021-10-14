@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components/macro'
+import {createGlobalStyle} from 'styled-components/macro';
 
 const GlobalStyles = createGlobalStyle`
 html {
@@ -20,5 +20,5 @@ body{
     background-color: #f2f3ee;
 }
 
-`
-export default GlobalStyles
+`;
+export default GlobalStyles;
