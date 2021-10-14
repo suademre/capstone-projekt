@@ -1,15 +1,15 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 
 function Categories(props) {
     return (
         <div>
-            <ExampleH1>coming soon</ExampleH1>
+            <HeadLine>coming soon</HeadLine>
         </div>
     );
 }
 
-const ExampleH1 = styled.h1`
+const HeadLine = styled.h1`
     margin-left: 250px;
 `;
 
