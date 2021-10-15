@@ -1,17 +1,19 @@
 import {render, screen} from '@testing-library/react';
 import Categories from './Categories';
-import placeholder from '../../images/placeholder.png';
+import {MemoryRouter as Router} from 'react-router-dom';
 
 describe('Categories', () => {
     it('render categories', () => {
         render(
-            <Categories
-                match={{
-                    params: {
-                        slug: 't-shirt',
-                    },
-                }}
-            />
+            <Router>
+                <Categories
+                    match={{
+                        params: {
+                            slug: 't-shirt',
+                        },
+                    }}
+                />
+            </Router>
         );
         const images = screen.getAllByRole('img');
         expect(images).toHaveLength(10);
