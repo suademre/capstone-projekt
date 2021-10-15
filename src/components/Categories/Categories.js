@@ -1,3 +1,4 @@
+import Footer from 'components/Footer/Footer';
 import React, {useEffect, useState} from 'react';
 import styled from 'styled-components/macro';
 import initialProductData from '../../data/data.json';
@@ -15,18 +16,21 @@ function Categories(props) {
     }, [slug]);
 
     return (
-        <CardSection>
-            {products.map((product, id) => (
-                <CardDiv key={id}>
-                    <CardImg src={product.imageFrond} alt={product.title} />
+        <>
+            <CardSection>
+                {products.map((product, id) => (
+                    <CardDiv key={id}>
+                        <CardImg src={product.imageFrond} alt={product.title} />
 
-                    <CardInfo>
-                        <span>{product.title}</span>
-                        <span>{product.price} $</span>
-                    </CardInfo>
-                </CardDiv>
-            ))}
-        </CardSection>
+                        <CardInfo>
+                            <span>{product.title}</span>
+                            <span>{product.price} $</span>
+                        </CardInfo>
+                    </CardDiv>
+                ))}
+            </CardSection>
+            <Footer />
+        </>
     );
 }
 
