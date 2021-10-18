@@ -1,8 +1,8 @@
 import {render, screen} from '@testing-library/react';
-import Categories from './Categories';
+import Favourite from './Favourite';
 import {MemoryRouter as Router} from 'react-router-dom';
 
-describe('Categories', () => {
+describe('Favourites', () => {
     const favourites = [
         {
             id: 'et0',
@@ -13,11 +13,11 @@ describe('Categories', () => {
             slug: 'flying-low',
         },
     ];
-    it('render categories', () => {
+    it('render favourites', () => {
         const handleFavoriteButtonClick = jest.fn();
         render(
             <Router>
-                <Categories
+                <Favourite
                     favourites={favourites}
                     handleFavoriteButtonClick={handleFavoriteButtonClick}
                     match={{
@@ -29,6 +29,6 @@ describe('Categories', () => {
             </Router>
         );
         const images = screen.getAllByRole('img');
-        expect(images).toHaveLength(10);
+        expect(images).toHaveLength(1);
     });
 });
