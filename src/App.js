@@ -7,14 +7,6 @@ import Favourite from 'components/Favourite/Favourite';
 function App() {
     const [favourites, setFavourites] = useState([]);
 
-    // const addFavourite = (product) => {
-    //     const items = favourites.find((item) => item.id === product.id);
-    //     if (items === undefined) {
-    //         setFavourites([...favourites, product]);
-    //     }
-    //     console.log(favourites);
-    // };
-
     const handleFavoriteButtonClick = (product) => {
         const isFavourite = favourites.includes(product);
         let newFavorites;

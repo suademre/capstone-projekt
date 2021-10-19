@@ -7,7 +7,7 @@ function IconButtons({product, handleFavoriteButtonClick, active}) {
         <>
             <FavoriteButton
                 active={active}
-                onClick={(e) => {
+                onClick={() => {
                     handleFavoriteButtonClick(product);
                 }}>
                 <FaHeart
