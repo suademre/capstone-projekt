@@ -13,22 +13,26 @@ function Filter({filterShow, toggleFilterShow, filterPrice}) {
             <FilterDiv>
                 <h2>Price</h2>
                 <FilterItem>
-                    <input
-                        type="radio"
-                        name="price"
-                        value="increase"
-                        onChange={() => filterPrice('increase')}
-                    />
-                    <Span>Increase</Span>
+                    <Label>
+                        <input
+                            type="radio"
+                            name="price"
+                            value="increase"
+                            onChange={() => filterPrice('increase')}
+                        />
+                        Increase
+                    </Label>
                 </FilterItem>
                 <FilterItem>
-                    <input
-                        type="radio"
-                        name="price"
-                        value="decrease"
-                        onChange={() => filterPrice('decrease')}
-                    />
-                    <Span>Decrease</Span>
+                    <Label>
+                        <input
+                            type="radio"
+                            name="price"
+                            value="decrease"
+                            onChange={() => filterPrice('decrease')}
+                        />
+                        Decrease
+                    </Label>
                 </FilterItem>
             </FilterDiv>
         </FilterSection>
@@ -76,10 +80,11 @@ const FilterItem = styled.div`
     padding: 10px;
 `;
 
-const Span = styled.span`
+const Label = styled.label`
+    display: flex;
     margin-left: 0.8rem;
     font-size: 1rem;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 `;
 
 export default Filter;
