@@ -1,15 +1,15 @@
-import Categories from './Categories';
+import Favourite from './Favourite';
 import placeholder from '../../images/placeholder.png';
 
 export default {
-    title: 'Component/Categories',
-    component: Categories,
+    title: 'Component/Favourite',
+    component: Favourite,
 };
 
-const Template = (args) => <Categories {...args} />;
+const Template = (args) => <Favourite {...args} />;
 
-export const CategoryItems = Template.bind({});
-CategoryItems.args = {
+export const FavouriteItems = Template.bind({});
+FavouriteItems.args = {
     id: '1',
     product: {
         imageFrond: placeholder,

@@ -1,15 +1,15 @@
-import Categories from './Categories';
+import Card from './Card';
 import placeholder from '../../images/placeholder.png';
 
 export default {
-    title: 'Component/Categories',
-    component: Categories,
+    title: 'Component/Card',
+    component: Card,
 };
 
-const Template = (args) => <Categories {...args} />;
+const Template = (args) => <Card {...args} />;
 
-export const CategoryItems = Template.bind({});
-CategoryItems.args = {
+export const CardItem = Template.bind({});
+CardItem.args = {
     id: '1',
     product: {
         imageFrond: placeholder,
