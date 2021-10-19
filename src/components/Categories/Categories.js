@@ -1,4 +1,5 @@
 import Card from 'components/Card/Card';
+import Filter from 'components/Filter/Filter';
 import Footer from 'components/Footer/Footer';
 import React, {useEffect, useState} from 'react';
 import styled from 'styled-components/macro';
@@ -6,6 +7,11 @@ import initialProductData from '../../data/data.json';
 
 function Categories(props) {
     const [products, setProducts] = useState([]);
+    const [filterShow, setFilterShow] = useState(false);
+
+    const toggleFilterShow = () => {
+        setFilterShow(!filterShow);
+    };
 
     const slug = props.match.params.slug;
     const {favourites, handleFavoriteButtonClick} = props;
@@ -16,6 +22,19 @@ function Categories(props) {
         );
         setProducts(items);
     }, [slug]);
+
+    const filterPrice = (status) => {
+        const items = products;
+
+        items.sort((a, b) => a.price - b.price);
+
+        if (status === 'increase') {
+            setProducts(items);
+        } else {
+            items.reverse();
+            setProducts(items);
+        }
+    };
 
     return (
         <>
@@ -29,7 +48,12 @@ function Categories(props) {
                     />
                 ))}
             </CardSection>
-            <Footer />
+            <Footer toggleFilterShow={toggleFilterShow} />
+            <Filter
+                filterShow={filterShow}
+                toggleFilterShow={toggleFilterShow}
+                filterPrice={filterPrice}
+            />
         </>
     );
 }
