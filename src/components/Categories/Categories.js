@@ -8,18 +8,13 @@ import initialProductData from '../../data/data.json';
 function Categories(props) {
     const [products, setProducts] = useState([]);
     const [filterShow, setFilterShow] = useState(false);
-    /* const [filter, setFilter] = useState(false); */
+
     const toggleFilterShow = () => {
         setFilterShow(!filterShow);
-        console.log(filterShow);
     };
 
     const slug = props.match.params.slug;
     const {favourites, handleFavoriteButtonClick} = props;
-
-    /* const setFilterShow = (status) => {
-        setFilter(status);
-    }; */
 
     useEffect(() => {
         const items = initialProductData.filter(
