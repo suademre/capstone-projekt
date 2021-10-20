@@ -48,7 +48,10 @@ function Categories(props) {
                     />
                 ))}
             </CardSection>
-            <Footer toggleFilterShow={toggleFilterShow} />
+            <Footer
+                toggleFilterShow={toggleFilterShow}
+                count={products.length}
+            />
             <Filter
                 filterShow={filterShow}
                 toggleFilterShow={toggleFilterShow}

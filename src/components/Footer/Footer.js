@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components/macro';
 
-function Footer({toggleFilterShow}) {
+function Footer({toggleFilterShow, count}) {
     return (
         <FooterMenu>
             <FooterItem onClick={toggleFilterShow}>Sort</FooterItem>
@@ -13,7 +13,7 @@ function Footer({toggleFilterShow}) {
                     Favourite
                 </Link>
             </FooterItem>
-            <FooterItem>Number Products</FooterItem>
+            <FooterItem>Number of Products: {count}</FooterItem>
         </FooterMenu>
     );
 }
