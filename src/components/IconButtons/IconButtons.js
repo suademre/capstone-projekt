@@ -7,25 +7,27 @@ import styled from 'styled-components/macro';
 function IconButtons({
     product,
     handleFavoriteButtonClick,
-    active,
+    activeFavourite,
     activeBaskets,
-    handleBaskdetButtonClick,
+    handleBasketButtonClick,
 }) {
     return (
         <>
             <FavoriteButton
-                active={active}
+                activeFavourite={activeFavourite}
                 onClick={() => {
                     handleFavoriteButtonClick(product);
                 }}>
                 <FaHeart
-                    style={{fontSize: '20px', color: active ? 'red' : null}}
+                    style={{
+                        fontSize: '20px',
+                        color: activeFavourite ? 'red' : null,
+                    }}
                 />
             </FavoriteButton>
             <BasketButton
-                activeBaskets={activeBaskets}
                 onClick={() => {
-                    handleBaskdetButtonClick(product);
+                    handleBasketButtonClick(product);
                 }}>
                 {activeBaskets ? (
                     <RiShoppingCartFill />

@@ -6,15 +6,15 @@ import Favourite from 'components/Favourite/Favourite';
 import ShoppingCard from 'components/ShoppingCard/ShoppingCard';
 
 function App() {
-    const [favourites, setFavourites] = useState([]);
-    const [baskets, setBaskets] = useState([]);
+    const [favouriteItems, setFavouriteItems] = useState([]);
+    const [basketItems, setBasketItems] = useState([]);
 
     const handleFavoriteButtonClick = (product) => {
-        const isFavourite = favourites.includes(product);
+        const isFavourite = favouriteItems.includes(product);
         let newFavorites;
         if (isFavourite) {
             // Remove from favorites
-            newFavorites = favourites.filter((item) => {
+            newFavorites = favouriteItems.filter((item) => {
                 if (item.id === product.id) {
                     return false;
                 } else {
@@ -23,17 +23,17 @@ function App() {
             });
         } else {
             // Add to favorites
-            newFavorites = favourites.concat(product);
+            newFavorites = favouriteItems.concat(product);
         }
-        setFavourites(newFavorites);
+        setFavouriteItems(newFavorites);
     };
 
-    const handleBaskdetButtonClick = (product) => {
-        const isBasket = baskets.includes(product);
+    const handleBasketButtonClick = (product) => {
+        const isBasket = basketItems.includes(product);
         let newBaskets;
         if (isBasket) {
             // Remove from favorites
-            newBaskets = baskets.filter((item) => {
+            newBaskets = basketItems.filter((item) => {
                 if (item.id === product.id) {
                     return false;
                 } else {
@@ -42,9 +42,9 @@ function App() {
             });
         } else {
             // Add to favorites
-            newBaskets = baskets.concat(product);
+            newBaskets = basketItems.concat(product);
         }
-        setBaskets(newBaskets);
+        setBasketItems(newBaskets);
     };
 
     return (
@@ -60,9 +60,9 @@ function App() {
                             handleFavoriteButtonClick={
                                 handleFavoriteButtonClick
                             }
-                            favourites={favourites}
-                            handleBaskdetButtonClick={handleBaskdetButtonClick}
-                            baskets={baskets}
+                            favouriteItems={favouriteItems}
+                            handleBasketButtonClick={handleBasketButtonClick}
+                            basketItems={basketItems}
                         />
                     )}
                 />
@@ -72,12 +72,12 @@ function App() {
                     render={(props) => (
                         <Favourite
                             {...props}
-                            favourites={favourites}
-                            baskets={baskets}
+                            favouriteItems={favouriteItems}
+                            basketItems={basketItems}
                             handleFavoriteButtonClick={
                                 handleFavoriteButtonClick
                             }
-                            handleBaskdetButtonClick={handleBaskdetButtonClick}
+                            handleBasketButtonClick={handleBasketButtonClick}
                         />
                     )}
                 />
@@ -87,9 +87,9 @@ function App() {
                     render={(props) => (
                         <ShoppingCard
                             {...props}
-                            baskets={baskets}
-                            favourites={favourites}
-                            handleBaskdetButtonClick={handleBaskdetButtonClick}
+                            basketItems={basketItems}
+                            favouriteItems={favouriteItems}
+                            handleBasketButtonClick={handleBasketButtonClick}
                             handleFavoriteButtonClick={
                                 handleFavoriteButtonClick
                             }

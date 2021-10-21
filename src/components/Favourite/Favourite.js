@@ -3,22 +3,22 @@ import React from 'react';
 import styled from 'styled-components/macro';
 
 function Favourite({
-    favourites,
+    favouriteItems,
     handleFavoriteButtonClick,
-    baskets,
-    handleBaskdetButtonClick,
+    basketItems,
+    handleBasketButtonClick,
 }) {
     return (
         <div>
             <CardSection>
-                {favourites.map((product, id) => (
+                {favouriteItems.map((product, id) => (
                     <Card
                         product={product}
                         key={id}
-                        favourites={favourites}
-                        baskets={baskets}
+                        favouriteItems={favouriteItems}
+                        basketItems={basketItems}
                         handleFavoriteButtonClick={handleFavoriteButtonClick}
-                        handleBaskdetButtonClick={handleBaskdetButtonClick}
+                        handleBasketButtonClick={handleBasketButtonClick}
                     />
                 ))}
             </CardSection>

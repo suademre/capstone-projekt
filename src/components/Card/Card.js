@@ -4,10 +4,10 @@ import styled from 'styled-components/macro';
 
 function Card({
     product,
-    favourites,
+    favouriteItems,
     handleFavoriteButtonClick,
-    baskets,
-    handleBaskdetButtonClick,
+    basketItems,
+    handleBasketButtonClick,
 }) {
     return (
         <CardDiv>
@@ -19,10 +19,14 @@ function Card({
             </CardInfo>
             <IconButtons
                 product={product}
-                active={favourites.some((item) => item.id === product.id)}
+                activeFavourite={favouriteItems.some(
+                    (item) => item.id === product.id
+                )}
                 handleFavoriteButtonClick={handleFavoriteButtonClick}
-                activeBaskets={baskets.some((item) => item.id === product.id)}
-                handleBaskdetButtonClick={handleBaskdetButtonClick}
+                activeBaskets={basketItems.some(
+                    (item) => item.id === product.id
+                )}
+                handleBasketButtonClick={handleBasketButtonClick}
             />
         </CardDiv>
     );

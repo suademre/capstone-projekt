@@ -3,22 +3,21 @@ import React from 'react';
 import styled from 'styled-components/macro';
 
 function ShoppingCard({
-    baskets,
-    handleBaskdetButtonClick,
-    favourites,
+    basketItems,
+    handleBasketButtonClick,
+    favouriteItems,
     handleFavoriteButtonClick,
 }) {
-    console.log('baskets', baskets);
     return (
         <div>
             <CardSection>
-                {baskets.map((product, id) => (
+                {basketItems.map((product, id) => (
                     <Card
                         product={product}
                         key={id}
-                        baskets={baskets}
-                        favourites={favourites}
-                        handleBaskdetButtonClick={handleBaskdetButtonClick}
+                        basketItems={basketItems}
+                        favouriteItems={favouriteItems}
+                        handleBasketButtonClick={handleBasketButtonClick}
                         handleFavoriteButtonClick={handleFavoriteButtonClick}
                     />
                 ))}
