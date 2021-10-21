@@ -14,7 +14,12 @@ function Categories(props) {
     };
 
     const slug = props.match.params.slug;
-    const {favourites, handleFavoriteButtonClick} = props;
+    const {
+        favouriteItems,
+        handleFavoriteButtonClick,
+        basketItems,
+        handleBasketButtonClick,
+    } = props;
 
     useEffect(() => {
         const items = initialProductData.filter(
@@ -43,8 +48,10 @@ function Categories(props) {
                     <Card
                         product={product}
                         key={id}
-                        favourites={favourites}
+                        favouriteItems={favouriteItems}
                         handleFavoriteButtonClick={handleFavoriteButtonClick}
+                        basketItems={basketItems}
+                        handleBasketButtonClick={handleBasketButtonClick}
                     />
                 ))}
             </CardSection>

@@ -2,23 +2,23 @@ import Card from 'components/Card/Card';
 import React from 'react';
 import styled from 'styled-components/macro';
 
-function Favourite({
-    favouriteItems,
-    handleFavoriteButtonClick,
+function ShoppingCard({
     basketItems,
     handleBasketButtonClick,
+    favouriteItems,
+    handleFavoriteButtonClick,
 }) {
     return (
         <div>
             <CardSection>
-                {favouriteItems.map((product, id) => (
+                {basketItems.map((product, id) => (
                     <Card
                         product={product}
                         key={id}
-                        favouriteItems={favouriteItems}
                         basketItems={basketItems}
-                        handleFavoriteButtonClick={handleFavoriteButtonClick}
+                        favouriteItems={favouriteItems}
                         handleBasketButtonClick={handleBasketButtonClick}
+                        handleFavoriteButtonClick={handleFavoriteButtonClick}
                     />
                 ))}
             </CardSection>
@@ -36,4 +36,4 @@ const CardSection = styled.section`
     margin-bottom: 4rem;
 `;
 
-export default Favourite;
+export default ShoppingCard;

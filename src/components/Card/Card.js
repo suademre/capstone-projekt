@@ -2,7 +2,13 @@ import React from 'react';
 import IconButtons from 'components/IconButtons/IconButtons';
 import styled from 'styled-components/macro';
 
-function Card({product, favourites, handleFavoriteButtonClick}) {
+function Card({
+    product,
+    favouriteItems,
+    handleFavoriteButtonClick,
+    basketItems,
+    handleBasketButtonClick,
+}) {
     return (
         <CardDiv>
             <CardImg src={product.imageFrond} alt={product.title} />
@@ -13,8 +19,14 @@ function Card({product, favourites, handleFavoriteButtonClick}) {
             </CardInfo>
             <IconButtons
                 product={product}
-                active={favourites.some((item) => item.id === product.id)}
+                activeFavourite={favouriteItems.some(
+                    (item) => item.id === product.id
+                )}
                 handleFavoriteButtonClick={handleFavoriteButtonClick}
+                activeBaskets={basketItems.some(
+                    (item) => item.id === product.id
+                )}
+                handleBasketButtonClick={handleBasketButtonClick}
             />
         </CardDiv>
     );

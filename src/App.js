@@ -3,16 +3,18 @@ import {Route, Switch} from 'react-router';
 import Categories from 'components/Categories/Categories';
 import Nav from '../src/components/Nav';
 import Favourite from 'components/Favourite/Favourite';
+import ShoppingCard from 'components/ShoppingCard/ShoppingCard';
 
 function App() {
-    const [favourites, setFavourites] = useState([]);
+    const [favouriteItems, setFavouriteItems] = useState([]);
+    const [basketItems, setBasketItems] = useState([]);
 
     const handleFavoriteButtonClick = (product) => {
-        const isFavourite = favourites.includes(product);
+        const isFavourite = favouriteItems.includes(product);
         let newFavorites;
         if (isFavourite) {
             // Remove from favorites
-            newFavorites = favourites.filter((item) => {
+            newFavorites = favouriteItems.filter((item) => {
                 if (item.id === product.id) {
                     return false;
                 } else {
@@ -21,9 +23,28 @@ function App() {
             });
         } else {
             // Add to favorites
-            newFavorites = favourites.concat(product);
+            newFavorites = favouriteItems.concat(product);
         }
-        setFavourites(newFavorites);
+        setFavouriteItems(newFavorites);
+    };
+
+    const handleBasketButtonClick = (product) => {
+        const isBasket = basketItems.includes(product);
+        let newBaskets;
+        if (isBasket) {
+            // Remove from favorites
+            newBaskets = basketItems.filter((item) => {
+                if (item.id === product.id) {
+                    return false;
+                } else {
+                    return true;
+                }
+            });
+        } else {
+            // Add to favorites
+            newBaskets = basketItems.concat(product);
+        }
+        setBasketItems(newBaskets);
     };
 
     return (
@@ -39,7 +60,9 @@ function App() {
                             handleFavoriteButtonClick={
                                 handleFavoriteButtonClick
                             }
-                            favourites={favourites}
+                            favouriteItems={favouriteItems}
+                            handleBasketButtonClick={handleBasketButtonClick}
+                            basketItems={basketItems}
                         />
                     )}
                 />
@@ -49,7 +72,24 @@ function App() {
                     render={(props) => (
                         <Favourite
                             {...props}
-                            favourites={favourites}
+                            favouriteItems={favouriteItems}
+                            basketItems={basketItems}
+                            handleFavoriteButtonClick={
+                                handleFavoriteButtonClick
+                            }
+                            handleBasketButtonClick={handleBasketButtonClick}
+                        />
+                    )}
+                />
+                <Route
+                    path="/shoppingcard"
+                    exact
+                    render={(props) => (
+                        <ShoppingCard
+                            {...props}
+                            basketItems={basketItems}
+                            favouriteItems={favouriteItems}
+                            handleBasketButtonClick={handleBasketButtonClick}
                             handleFavoriteButtonClick={
                                 handleFavoriteButtonClick
                             }
