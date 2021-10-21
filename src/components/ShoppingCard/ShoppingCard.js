@@ -2,7 +2,12 @@ import Card from 'components/Card/Card';
 import React from 'react';
 import styled from 'styled-components/macro';
 
-function ShoppingCard({baskets, handleBaskdetButtonClick, favourites}) {
+function ShoppingCard({
+    baskets,
+    handleBaskdetButtonClick,
+    favourites,
+    handleFavoriteButtonClick,
+}) {
     console.log('baskets', baskets);
     return (
         <div>
@@ -14,6 +19,7 @@ function ShoppingCard({baskets, handleBaskdetButtonClick, favourites}) {
                         baskets={baskets}
                         favourites={favourites}
                         handleBaskdetButtonClick={handleBaskdetButtonClick}
+                        handleFavoriteButtonClick={handleFavoriteButtonClick}
                     />
                 ))}
             </CardSection>

@@ -19,9 +19,9 @@ function Card({
             </CardInfo>
             <IconButtons
                 product={product}
-                active={favourites?.some((item) => item.id === product.id)}
+                active={favourites.some((item) => item.id === product.id)}
                 handleFavoriteButtonClick={handleFavoriteButtonClick}
-                activeBaskets={baskets?.some((item) => item.id === product.id)}
+                activeBaskets={baskets.some((item) => item.id === product.id)}
                 handleBaskdetButtonClick={handleBaskdetButtonClick}
             />
         </CardDiv>

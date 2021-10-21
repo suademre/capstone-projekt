@@ -73,6 +73,7 @@ function App() {
                         <Favourite
                             {...props}
                             favourites={favourites}
+                            baskets={baskets}
                             handleFavoriteButtonClick={
                                 handleFavoriteButtonClick
                             }
@@ -87,7 +88,11 @@ function App() {
                         <ShoppingCard
                             {...props}
                             baskets={baskets}
+                            favourites={favourites}
                             handleBaskdetButtonClick={handleBaskdetButtonClick}
+                            handleFavoriteButtonClick={
+                                handleFavoriteButtonClick
+                            }
                         />
                     )}
                 />
