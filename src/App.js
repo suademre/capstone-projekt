@@ -4,6 +4,7 @@ import Categories from 'components/Categories/Categories';
 import Nav from '../src/components/Nav';
 import Favourite from 'components/Favourite/Favourite';
 import ShoppingCard from 'components/ShoppingCard/ShoppingCard';
+import initialProductData from './data/data.json';
 
 function App() {
     const [favouriteItems, setFavouriteItems] = useState([]);
@@ -57,6 +58,7 @@ function App() {
                     render={(props) => (
                         <Categories
                             {...props}
+                            allProducts={initialProductData}
                             handleFavoriteButtonClick={
                                 handleFavoriteButtonClick
                             }
