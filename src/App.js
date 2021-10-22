@@ -74,6 +74,7 @@ function App() {
                     render={(props) => (
                         <Favourite
                             {...props}
+                            allProducts={initialProductData}
                             favouriteItems={favouriteItems}
                             basketItems={basketItems}
                             handleFavoriteButtonClick={
@@ -89,6 +90,7 @@ function App() {
                     render={(props) => (
                         <ShoppingCard
                             {...props}
+                            allProducts={initialProductData}
                             basketItems={basketItems}
                             favouriteItems={favouriteItems}
                             handleBasketButtonClick={handleBasketButtonClick}
