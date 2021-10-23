@@ -50,7 +50,11 @@ function Nav() {
                 <MenuList>
                     <MenuTittle>Categories</MenuTittle>
                     {categories.map((category) => (
-                        <MenuItem key={category.id} category={category} />
+                        <MenuItem
+                            key={category.id}
+                            category={category}
+                            toggleMenu={toggleMenu}
+                        />
                     ))}
                 </MenuList>
             </SidebarSection>
