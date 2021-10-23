@@ -5,6 +5,8 @@ import Nav from '../src/components/Nav';
 import Favourite from 'components/Favourite/Favourite';
 import ShoppingCard from 'components/ShoppingCard/ShoppingCard';
 
+import initialProductData from './data/data.json';
+
 function App() {
     const [favouriteItems, setFavouriteItems] = useState([]);
     const [basketItems, setBasketItems] = useState([]);
@@ -57,6 +59,7 @@ function App() {
                     render={(props) => (
                         <Categories
                             {...props}
+                            allProducts={initialProductData}
                             handleFavoriteButtonClick={
                                 handleFavoriteButtonClick
                             }
@@ -72,6 +75,7 @@ function App() {
                     render={(props) => (
                         <Favourite
                             {...props}
+                            allProducts={initialProductData}
                             favouriteItems={favouriteItems}
                             basketItems={basketItems}
                             handleFavoriteButtonClick={
@@ -87,6 +91,7 @@ function App() {
                     render={(props) => (
                         <ShoppingCard
                             {...props}
+                            allProducts={initialProductData}
                             basketItems={basketItems}
                             favouriteItems={favouriteItems}
                             handleBasketButtonClick={handleBasketButtonClick}
