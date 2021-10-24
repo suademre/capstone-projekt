@@ -2,9 +2,9 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components/macro';
 
-function MenuItem({category, toggleMenu}) {
+function MenuItem({category, onToggleMenu}) {
     return (
-        <MenuItemA onClick={toggleMenu}>
+        <MenuItemA onClick={onToggleMenu}>
             <Link to={'/category/' + category.slug}>{category.title}</Link>
         </MenuItemA>
     );
