@@ -2,10 +2,10 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components/macro';
 
-function Footer({toggleFilterShow, count}) {
+function Footer({onToggleFilterShow, count}) {
     return (
         <FooterMenu>
-            <FooterItem onClick={toggleFilterShow}>Sort</FooterItem>
+            <FooterItem onClick={onToggleFilterShow}>Sort</FooterItem>
             <FooterItem>
                 <Link
                     style={{textDecoration: 'none', color: 'black'}}

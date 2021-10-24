@@ -2,12 +2,12 @@ import React from 'react';
 import {FaBackspace} from 'react-icons/fa';
 import styled, {css} from 'styled-components/macro';
 
-function Filter({filterShow, toggleFilterShow, filterPrice}) {
+function Filter({filterShow, onToggleFilterShow, filterPrice}) {
     return (
         <FilterSection filterShow={filterShow}>
             <CloseButton
                 aria-label="Close navigation"
-                onClick={toggleFilterShow}>
+                onClick={onToggleFilterShow}>
                 <FaBackspace />
             </CloseButton>
             <FilterDiv>

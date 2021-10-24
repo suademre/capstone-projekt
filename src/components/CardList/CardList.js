@@ -11,12 +11,11 @@ function CardList({
     handleBasketButtonClick,
     products,
 }) {
-    // const [products, setProducts] = useState([]);
     const [filterShow, setFilterShow] = useState(false);
     const [sortByPriceStatus, setSortByPriceStatus] = useState('unsorted');
 
     // "unsorted" | "ascending" | "descending"
-    const toggleFilterShow = () => {
+    const toggleFilterShowHandler = () => {
         setFilterShow(!filterShow);
     };
 
@@ -47,12 +46,12 @@ function CardList({
                 ))}
             </CardSection>
             <Footer
-                toggleFilterShow={toggleFilterShow}
+                onToggleFilterShow={toggleFilterShowHandler}
                 count={shownProducts.length}
             />
             <Filter
                 filterShow={filterShow}
-                toggleFilterShow={toggleFilterShow}
+                onToggleFilterShow={toggleFilterShowHandler}
                 filterPrice={filterPrice}
             />
         </>
