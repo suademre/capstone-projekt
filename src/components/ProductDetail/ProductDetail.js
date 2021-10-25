@@ -8,7 +8,7 @@ function ProductDetail({allProducts, categories, ...props}) {
 
     return (
         <CardDiv>
-            <CardImg src={productDetail.imageFrond} />
+            <CardImg src={productDetail.imageFrond} alt={productDetail.title} />
             <span>
                 {productDetail.title} : Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit. Fusce in urna purus. Quisque eu sem ac dui
