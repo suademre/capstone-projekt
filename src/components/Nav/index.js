@@ -18,7 +18,7 @@ import {Link} from 'react-router-dom';
 function Nav() {
     const [showMenu, setShowMenu] = useState(false);
 
-    const toggleMenu = () => {
+    const toggleMenuHandler = () => {
         setShowMenu(!showMenu);
     };
 
@@ -26,7 +26,9 @@ function Nav() {
         <>
             <HeaderNav>
                 <div>
-                    <button aria-label="Open navigation" onClick={toggleMenu}>
+                    <button
+                        aria-label="Open navigation"
+                        onClick={toggleMenuHandler}>
                         <FaAlignJustify />
 
                         <span>Menu</span>
@@ -43,14 +45,20 @@ function Nav() {
                 </div>
             </HeaderNav>
             <SidebarSection showMenu={showMenu}>
-                <CloseButton aria-label="Close navigation" onClick={toggleMenu}>
+                <CloseButton
+                    aria-label="Close navigation"
+                    onClick={toggleMenuHandler}>
                     <FaBackspace />
                 </CloseButton>
 
                 <MenuList>
                     <MenuTittle>Categories</MenuTittle>
                     {categories.map((category) => (
-                        <MenuItem key={category.id} category={category} />
+                        <MenuItem
+                            key={category.id}
+                            category={category}
+                            onToggleMenu={toggleMenuHandler}
+                        />
                     ))}
                 </MenuList>
             </SidebarSection>
