@@ -4,7 +4,6 @@ import {FaAlignJustify, FaBackspace} from 'react-icons/fa';
 
 import {TiShoppingCart} from 'react-icons/ti';
 
-import categories from '../../data/category.json';
 import MenuItem from 'components/Nav/MenuItem';
 import {
     HeaderNav,
@@ -15,7 +14,7 @@ import {
 } from './styles';
 import {Link} from 'react-router-dom';
 
-function Nav() {
+function Nav({categories}) {
     const [showMenu, setShowMenu] = useState(false);
 
     const toggleMenuHandler = () => {
