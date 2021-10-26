@@ -1,24 +1,25 @@
-import Card from './Card';
+import CardList from './CardList';
 
 export default {
-    title: 'Component/Card',
-    component: Card,
+    title: 'Component/CardList',
+    component: CardList,
 };
 
-const Template = (args) => <Card {...args} />;
+const Template = (args) => <CardList {...args} />;
 
-export const CardItem = Template.bind({});
-CardItem.args = {
-    id: '1',
-    product: {
-        imageFrond:
-            'https://www.kaft.com/static/images/cache/800/tisort_flyinglow_19186_800_800.jpg?cacheID=1629358586000',
-        title: 'Flying Low',
-        price: 105,
-        category: {
-            title: 't-shirt',
+export const CardListItem = Template.bind({});
+CardListItem.args = {
+    products: [
+        {
+            imageFrond:
+                'https://www.kaft.com/static/images/cache/800/tisort_flyinglow_19186_800_800.jpg?cacheID=1629358586000',
+            title: 'Flying Low',
+            price: 105,
+            category: {
+                title: 't-shirt',
+            },
         },
-    },
+    ],
     match: {
         params: {
             slug: 't-shirt',

@@ -1,6 +1,7 @@
 import React from 'react';
 import IconButtons from 'components/IconButtons/IconButtons';
 import styled from 'styled-components/macro';
+import {Link} from 'react-router-dom';
 
 function Card({
     product,
@@ -11,8 +12,9 @@ function Card({
 }) {
     return (
         <CardDiv>
-            <CardImg src={product.imageFrond} alt={product.title} />
-
+            <Link to={'/' + product.category.title + '/' + product.slug}>
+                <CardImg src={product.imageFrond} alt={product.title} />
+            </Link>
             <CardInfo>
                 <span>{product.title}</span>
                 <span>{product.price} $</span>

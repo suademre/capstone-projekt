@@ -4,8 +4,10 @@ import Categories from 'components/Categories/Categories';
 import Nav from '../src/components/Nav';
 import Favourite from 'components/Favourite/Favourite';
 import ShoppingCard from 'components/ShoppingCard/ShoppingCard';
+import ProductDetail from 'components/ProductDetail/ProductDetail';
 
 import initialProductData from './data/data.json';
+import categories from './data/category.json';
 
 function App() {
     const [favouriteItems, setFavouriteItems] = useState([]);
@@ -51,7 +53,7 @@ function App() {
 
     return (
         <>
-            <Nav />
+            <Nav categories={categories} />
             <Switch>
                 <Route
                     path="/category/:slug"
@@ -66,6 +68,17 @@ function App() {
                             favouriteItems={favouriteItems}
                             handleBasketButtonClick={handleBasketButtonClick}
                             basketItems={basketItems}
+                        />
+                    )}
+                />
+                <Route
+                    path="/:category/:item"
+                    exact
+                    render={(props) => (
+                        <ProductDetail
+                            {...props}
+                            allProducts={initialProductData}
+                            categories={categories}
                         />
                     )}
                 />
