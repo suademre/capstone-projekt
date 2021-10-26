@@ -5,10 +5,10 @@ import Nav from '../src/components/Nav';
 import Favourite from 'components/Favourite/Favourite';
 import ShoppingCard from 'components/ShoppingCard/ShoppingCard';
 import ProductDetail from 'components/ProductDetail/ProductDetail';
+import HomePage from 'components/HomaPage/HomePage';
 
 import initialProductData from './data/data.json';
 import categories from './data/category.json';
-import HomaPage from 'components/HomaPage/HomaPage';
 
 function App() {
     const [favouriteItems, setFavouriteItems] = useState([]);
@@ -59,7 +59,7 @@ function App() {
                 <Route
                     path="/"
                     exact
-                    render={(props) => <HomaPage {...props} />}
+                    render={(props) => <HomePage {...props} />}
                 />
                 <Route
                     path="/category/:slug"

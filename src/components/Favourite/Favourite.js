@@ -9,7 +9,7 @@ function Favourite({...props}) {
             {props.favouriteItems.length > 0 ? (
                 <CardList products={props.favouriteItems} {...props} />
             ) : (
-                <Span>You do not have a product on the favorite page.</Span>
+                <Span>You haven't added any items yet.</Span>
             )}
         </>
     );

@@ -2,7 +2,7 @@ import React from 'react';
 import homeImg from 'assets/images/homeimage.jpeg';
 import styled from 'styled-components/macro';
 
-function HomaPage() {
+function HomePage() {
     return (
         <HomeSection>
             <HomeImg src={homeImg} alt={'HomeImg'} />
@@ -20,4 +20,4 @@ const HomeImg = styled.img`
     height: 100%;
 `;
 
-export default HomaPage;
+export default HomePage;

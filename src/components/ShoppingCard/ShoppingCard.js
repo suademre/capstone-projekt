@@ -9,7 +9,7 @@ function ShoppingCard({...props}) {
             {props.basketItems.length > 0 ? (
                 <CardList products={props.basketItems} {...props} />
             ) : (
-                <Span>You do not have a product on the favorite page.</Span>
+                <Span>You haven't added any items yet.</Span>
             )}
         </>
     );
