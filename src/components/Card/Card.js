@@ -39,7 +39,7 @@ const CardDiv = styled.div`
     background-color: #f2f3ee;
     display: block;
     color: #000;
-    margin-top: 3rem;
+    margin-top: 1rem;
     box-shadow: 0px 0px 10px #dedede;
     padding: 2.2rem 1.2rem;
 `;

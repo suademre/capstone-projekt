@@ -13,12 +13,19 @@ export const HeaderNav = styled.nav`
     color: #000;
     z-index: 100;
 `;
+
+export const OpenNavButton = styled.button`
+    border: none;
+    font-size: 1rem;
+`;
+
 export const SidebarSection = styled.section`
     position: fixed;
     top: 0;
     width: 70vw;
     height: 100vh;
-    background-color: #f9f9f9;
+    background-color: #f8f9f6;
+    /* background-color: #f9f9f9; */
     z-index: 101;
     transition: left 0.4s ease;
     padding-right: 120px;
@@ -34,11 +41,12 @@ export const SidebarSection = styled.section`
 
 export const CloseButton = styled.button`
     position: absolute;
-    font-size: 15px;
+    font-size: 20px;
     top: 50px;
     left: 50px;
     color: #000;
     background-color: #f2f3ee;
+    border: none;
 `;
 
 export const MenuList = styled.ul`

@@ -11,6 +11,7 @@ import {
     CloseButton,
     MenuList,
     MenuTittle,
+    OpenNavButton,
 } from './styles';
 import {Link} from 'react-router-dom';
 
@@ -25,13 +26,13 @@ function Nav({categories}) {
         <>
             <HeaderNav>
                 <div>
-                    <button
+                    <OpenNavButton
                         aria-label="Open navigation"
                         onClick={toggleMenuHandler}>
                         <FaAlignJustify />
 
                         <span>Menu</span>
-                    </button>
+                    </OpenNavButton>
                 </div>
 
                 <div>Shopping Center</div>
