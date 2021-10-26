@@ -17,6 +17,7 @@ export const HeaderNav = styled.nav`
 export const OpenNavButton = styled.button`
     border: none;
     font-size: 1rem;
+    background-color: transparent;
 `;
 
 export const SidebarSection = styled.section`
