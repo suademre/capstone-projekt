@@ -43,8 +43,8 @@ const FilterSection = styled.section`
     position: fixed;
     bottom: 50px;
     width: 60vw;
-    height: 40vh;
-    background-color: #f9f9f9;
+    height: 30vh;
+    background-color: #f8f9f6;
     z-index: 101;
     transition: left 0.4s ease;
     padding-right: 120px;
@@ -60,11 +60,12 @@ const FilterSection = styled.section`
 
 const CloseButton = styled.button`
     position: absolute;
-    font-size: 15px;
-    top: 10px;
-    left: 20px;
+    font-size: 1rem;
+    top: 1rem;
+    left: 1.3rem;
     color: #000;
-    background-color: #f2f3ee;
+    background-color: #f9f9f9;
+    border: none;
 `;
 
 const FilterDiv = styled.div`

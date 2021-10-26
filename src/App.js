@@ -5,6 +5,7 @@ import Nav from '../src/components/Nav';
 import Favourite from 'components/Favourite/Favourite';
 import ShoppingCard from 'components/ShoppingCard/ShoppingCard';
 import ProductDetail from 'components/ProductDetail/ProductDetail';
+import HomePage from 'components/HomaPage/HomePage';
 
 import initialProductData from './data/data.json';
 import categories from './data/category.json';
@@ -55,6 +56,11 @@ function App() {
         <>
             <Nav categories={categories} />
             <Switch>
+                <Route
+                    path="/"
+                    exact
+                    render={(props) => <HomePage {...props} />}
+                />
                 <Route
                     path="/category/:slug"
                     exact

@@ -63,7 +63,7 @@ const CardSection = styled.section`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 7rem;
+    margin-top: 2rem;
     margin-bottom: 4rem;
 `;
 
