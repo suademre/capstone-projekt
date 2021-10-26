@@ -35,7 +35,13 @@ function Nav({categories}) {
                     </OpenNavButton>
                 </div>
 
-                <div>Shopping Center</div>
+                <div>
+                    <Link
+                        to={'/'}
+                        style={{textDecoration: 'none', color: 'black'}}>
+                        Shopping Center
+                    </Link>
+                </div>
                 <div>
                     <Link
                         to={'/shoppingcard'}
