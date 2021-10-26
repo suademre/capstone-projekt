@@ -8,6 +8,7 @@ import ProductDetail from 'components/ProductDetail/ProductDetail';
 
 import initialProductData from './data/data.json';
 import categories from './data/category.json';
+import HomaPage from 'components/HomaPage/HomaPage';
 
 function App() {
     const [favouriteItems, setFavouriteItems] = useState([]);
@@ -55,6 +56,11 @@ function App() {
         <>
             <Nav categories={categories} />
             <Switch>
+                <Route
+                    path="/"
+                    exact
+                    render={(props) => <HomaPage {...props} />}
+                />
                 <Route
                     path="/category/:slug"
                     exact
