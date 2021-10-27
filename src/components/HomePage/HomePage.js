@@ -5,7 +5,7 @@ import styled from 'styled-components/macro';
 function HomePage() {
     return (
         <HomeSection>
-            <HomeImg src={homeImg} alt={'HomeImg'} />
+            <HomeImg src={homeImg} alt="HomeImg" />
         </HomeSection>
     );
 }

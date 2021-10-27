@@ -1,15 +1,15 @@
-import Categories from './Categories';
+import ShoppingCard from './ShoppingCard';
 
 export default {
-    title: 'Component/Categories',
-    component: Categories,
+    title: 'Component/ShoppingCard',
+    component: ShoppingCard,
 };
 
-const Template = (args) => <Categories {...args} />;
+const Template = (args) => <ShoppingCard {...args} />;
 
-export const CategoryItems = Template.bind({});
-CategoryItems.args = {
-    allProducts: [
+export const ShoppingCardItems = Template.bind({});
+ShoppingCardItems.args = {
+    products: [
         {
             id: 'et0',
             title: 'Flying Low',
@@ -22,16 +22,7 @@ CategoryItems.args = {
             },
         },
     ],
-    product: {
-        imageFrond:
-            'https://www.kaft.com/static/images/cache/800/tisort_flyinglow_19186_800_800.jpg?cacheID=1629358586000',
-        title: 'Flying Low',
-        price: 105,
-        category: {
-            title: 't-shirt',
-        },
-    },
-    title: ['Flying Low', 'basic-shirt'],
+
     match: {
         params: {
             slug: 't-shirt',
