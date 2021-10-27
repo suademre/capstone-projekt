@@ -1,11 +1,13 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 
-function ProductDetail({allProducts, categories, ...props}) {
+function ProductDetail({allProducts, ...props}) {
     const item = props.match.params.item;
 
     const productDetail = allProducts.find((product) => product.slug === item);
 
+    // console.log('details', productDetail);
+    // return null;
     return (
         <CardDiv>
             <CardImg src={productDetail.imageFrond} alt={productDetail.title} />
