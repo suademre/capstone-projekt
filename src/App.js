@@ -5,7 +5,7 @@ import Nav from '../src/components/Nav';
 import Favourite from 'components/Favourite/Favourite';
 import ShoppingCard from 'components/ShoppingCard/ShoppingCard';
 import ProductDetail from 'components/ProductDetail/ProductDetail';
-import HomePage from 'components/HomaPage/HomePage';
+import HomePage from 'components/HomePage/HomePage';
 
 import initialProductData from './data/data.json';
 import categories from './data/category.json';
@@ -84,7 +84,6 @@ function App() {
                         <ProductDetail
                             {...props}
                             allProducts={initialProductData}
-                            categories={categories}
                         />
                     )}
                 />
