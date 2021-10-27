@@ -1,5 +1,4 @@
 import Categories from './Categories';
-/* import placeholder from '../../images/placeholder.png'; */
 
 export default {
     title: 'Component/Categories',
