@@ -6,8 +6,6 @@ function ProductDetail({allProducts, ...props}) {
 
     const productDetail = allProducts.find((product) => product.slug === item);
 
-    // console.log('details', productDetail);
-    // return null;
     return (
         <CardDiv>
             <CardImg src={productDetail.imageFrond} alt={productDetail.title} />
