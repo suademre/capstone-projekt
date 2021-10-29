@@ -29,7 +29,7 @@ const productDetail = {
 };
 
 describe('ProductDetail', () => {
-    it('render Product Detail', () => {
+    it('renders Product Detail', () => {
         render(
             <Router>
                 <ProductDetail
@@ -45,5 +45,22 @@ describe('ProductDetail', () => {
         );
         const image = screen.getByRole('img');
         expect(image).toBeInTheDocument();
+    });
+    it('has an alt attribute', () => {
+        render(
+            <Router>
+                <ProductDetail
+                    allProducts={allProducts}
+                    productDetail={productDetail}
+                    match={{
+                        params: {
+                            item: 'flying-low',
+                        },
+                    }}
+                />
+            </Router>
+        );
+        const alt = screen.getByAltText(productDetail.title);
+        expect(alt).toBeInTheDocument();
     });
 });
