@@ -7,7 +7,7 @@ function MenuItem({category, onToggleMenu}) {
         <MenuItemA onClick={onToggleMenu}>
             <Link
                 style={{textDecoration: 'none', color: 'black'}}
-                to={'/category/' + category.slug}>
+                to={`/category/${category.slug}`}>
                 {category.title}
             </Link>
         </MenuItemA>
