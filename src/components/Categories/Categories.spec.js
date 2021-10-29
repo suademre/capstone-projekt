@@ -49,7 +49,7 @@ const basketItems = [
 ];
 
 describe('Categories', () => {
-    it('render categories', () => {
+    it('renders categories', () => {
         const handleFavoriteButtonClick = jest.fn();
         const handleBasketButtonClick = jest.fn();
         render(
