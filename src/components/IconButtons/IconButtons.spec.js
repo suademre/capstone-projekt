@@ -1,11 +1,7 @@
 import {render, screen} from '@testing-library/react';
 import IconButtons from './IconButtons';
+import userEvent from '@testing-library/user-event';
 
-// product,
-//     handleFavoriteButtonClick,
-//     activeFavourite,
-//     activeBaskets,
-//     handleBasketButtonClick,
 const product = {
     id: 'et0',
     title: 'Flying Low',
@@ -22,7 +18,7 @@ const activeFavourite = true;
 const activeBaskets = true;
 
 describe('IconButtons remder', () => {
-    it('remder IconButtons', () => {
+    it('remders IconButtons', () => {
         const handleFavoriteButtonClick = jest.fn();
         const handleBasketButtonClick = jest.fn();
         render(
@@ -36,5 +32,35 @@ describe('IconButtons remder', () => {
         );
         const buttons = screen.getAllByRole('button');
         expect(buttons).toHaveLength(2);
+    });
+    it('it calls product, when the user favourite button clicked', () => {
+        const handleFavoriteButtonClick = jest.fn();
+        render(
+            <IconButtons
+                product={product}
+                handleFavoriteButtonClick={handleFavoriteButtonClick}
+            />
+        );
+        const button = screen.getAllByRole('button');
+        const favouriteButton = button[0];
+
+        userEvent.click(favouriteButton);
+        expect(handleFavoriteButtonClick).toHaveBeenCalledTimes(1);
+        expect(handleFavoriteButtonClick).toHaveBeenCalledWith(product);
+    });
+    it('it calls product, when the user basket button clicked', () => {
+        const handleBasketButtonClick = jest.fn();
+        render(
+            <IconButtons
+                product={product}
+                handleBasketButtonClick={handleBasketButtonClick}
+            />
+        );
+        const button = screen.getAllByRole('button');
+        const basketButton = button[1];
+
+        userEvent.click(basketButton);
+        expect(handleBasketButtonClick).toHaveBeenCalledTimes(1);
+        expect(handleBasketButtonClick).toHaveBeenCalledWith(product);
     });
 });
