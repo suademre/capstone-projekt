@@ -37,7 +37,7 @@ const product = [
 ];
 
 describe('Shopping Card', () => {
-    it('render Shopping Card', () => {
+    it('renders Shopping Card', () => {
         const handleBasketButtonClick = jest.fn();
         const handleFavoriteButtonClick = jest.fn();
         render(
