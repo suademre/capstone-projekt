@@ -37,7 +37,7 @@ const product = [
 ];
 
 describe('Favourites', () => {
-    it('render favourites', () => {
+    it('renders favourites', () => {
         const handleFavoriteButtonClick = jest.fn();
         const handleBasketButtonClick = jest.fn();
         render(
