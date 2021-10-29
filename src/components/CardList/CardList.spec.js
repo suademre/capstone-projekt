@@ -38,7 +38,7 @@ const basketItems = [
 ];
 
 describe('CardList render', () => {
-    it('render card list', () => {
+    it('renders card list', () => {
         const handleFavoriteButtonClick = jest.fn();
         const handleBasketButtonClick = jest.fn();
         render(
