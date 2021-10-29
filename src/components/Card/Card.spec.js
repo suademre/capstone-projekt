@@ -1,37 +1,73 @@
 import {render, screen} from '@testing-library/react';
 import Card from './Card';
 import placeholder from '../../images/placeholder.png';
+import {MemoryRouter as Router} from 'react-router-dom';
 
-describe('Card', () => {
-    const product = {
+const product = {
+    id: 'et0',
+    title: 'Flying Low',
+    price: 105,
+    imageFrond: placeholder,
+    slug: 'flying-low',
+    category: {
+        title: 'flying-low',
+    },
+};
+
+const favouriteItems = [
+    {
         id: 'et0',
         title: 'Flying Low',
         price: 105,
-        imageFrond: placeholder,
+        imageFrond:
+            'https://www.kaft.com/static/images/cache/800/tisort_flyinglow_19186_800_800.jpg?cacheID=1629358586000',
         slug: 'flying-low',
-    };
+    },
+];
+const basketItems = [
+    {
+        id: 'et0',
+        title: 'Flying Low',
+        price: 105,
+        imageFrond:
+            'https://www.kaft.com/static/images/cache/800/tisort_flyinglow_19186_800_800.jpg?cacheID=1629358586000',
+        slug: 'flying-low',
+    },
+];
 
-    const favourites = [
-        {
-            id: 'et0',
-            title: 'Flying Low',
-            price: 105,
-            imageFrond:
-                'https://www.kaft.com/static/images/cache/800/tisort_flyinglow_19186_800_800.jpg?cacheID=1629358586000',
-            slug: 'flying-low',
-        },
-    ];
-
-    it('render card', () => {
+describe('Card', () => {
+    it('renders card', () => {
         const handleFavoriteButtonClick = jest.fn();
+        const handleBasketButtonClick = jest.fn();
         render(
-            <Card
-                product={product}
-                handleFavoriteButtonClick={handleFavoriteButtonClick}
-                favourites={favourites}
-            />
+            <Router>
+                <Card
+                    product={product}
+                    favouriteItems={favouriteItems}
+                    basketItems={basketItems}
+                    handleFavoriteButtonClick={handleFavoriteButtonClick}
+                    handleBasketButtonClick={handleBasketButtonClick}
+                />
+            </Router>
         );
         const images = screen.getAllByRole('img');
         expect(images).toHaveLength(1);
+    });
+    it('has an alt attribute', () => {
+        const handleFavoriteButtonClick = jest.fn();
+        const handleBasketButtonClick = jest.fn();
+        render(
+            <Router>
+                <Card
+                    product={product}
+                    favouriteItems={favouriteItems}
+                    basketItems={basketItems}
+                    handleFavoriteButtonClick={handleFavoriteButtonClick}
+                    handleBasketButtonClick={handleBasketButtonClick}
+                />
+            </Router>
+        );
+        const alt = screen.getByText(product.title);
+        expect(alt).toBeInTheDocument();
     });
 });

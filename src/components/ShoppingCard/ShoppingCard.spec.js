@@ -1,5 +1,5 @@
 import {render, screen} from '@testing-library/react';
-import Favourite from './Favourite';
+import ShoppingCard from './ShoppingCard';
 import {MemoryRouter as Router} from 'react-router-dom';
 
 const favouriteItems = [
@@ -36,13 +36,13 @@ const product = [
     },
 ];
 
-describe('Favourites', () => {
-    it('renders favourites', () => {
-        const handleFavoriteButtonClick = jest.fn();
+describe('Shopping Card', () => {
+    it('renders Shopping Card', () => {
         const handleBasketButtonClick = jest.fn();
+        const handleFavoriteButtonClick = jest.fn();
         render(
             <Router>
-                <Favourite
+                <ShoppingCard
                     favouriteItems={favouriteItems}
                     basketItems={basketItems}
                     products={product}
