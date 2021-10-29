@@ -36,7 +36,7 @@ const basketItems = [
 ];
 
 describe('Card', () => {
-    it('render card', () => {
+    it('renders card', () => {
         const handleFavoriteButtonClick = jest.fn();
         const handleBasketButtonClick = jest.fn();
         render(
@@ -52,5 +52,22 @@ describe('Card', () => {
         );
         const images = screen.getAllByRole('img');
         expect(images).toHaveLength(1);
+    });
+    it('has an alt attribute', () => {
+        const handleFavoriteButtonClick = jest.fn();
+        const handleBasketButtonClick = jest.fn();
+        render(
+            <Router>
+                <Card
+                    product={product}
+                    favouriteItems={favouriteItems}
+                    basketItems={basketItems}
+                    handleFavoriteButtonClick={handleFavoriteButtonClick}
+                    handleBasketButtonClick={handleBasketButtonClick}
+                />
+            </Router>
+        );
+        const alt = screen.getByText(product.title);
+        expect(alt).toBeInTheDocument();
     });
 });
