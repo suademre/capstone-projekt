@@ -5,13 +5,14 @@ export const HeaderNav = styled.nav`
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-    padding: 50px 40px;
+    padding: 40px 30px;
     font-size: 16px;
     position: fixed;
     top: 0;
     width: 100vw;
     color: #000;
     z-index: 100;
+    background-color: rgba(230, 233, 222, 0.5);
 `;
 
 export const OpenNavButton = styled.button`
@@ -26,7 +27,6 @@ export const SidebarSection = styled.section`
     width: 70vw;
     height: 100vh;
     background-color: #f8f9f6;
-    /* background-color: #f9f9f9; */
     z-index: 101;
     transition: left 0.4s ease;
     padding-right: 120px;
