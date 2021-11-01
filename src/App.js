@@ -15,11 +15,11 @@ function App() {
     const [basketItems, setBasketItems] = useState([]);
 
     useEffect(() => {
-        let basketProducts = JSON.parse(
-            window.localStorage.getItem('basketProduct')
+        const basketProducts = JSON.parse(
+            localStorage.getItem('basketProduct')
         );
-        let favouriteProducts = JSON.parse(
-            window.localStorage.getItem('favouriteProduct')
+        const favouriteProducts = JSON.parse(
+            localStorage.getItem('favouriteProduct')
         );
         if (basketProducts) setBasketItems(basketProducts);
         if (favouriteProducts) setFavouriteItems(favouriteProducts);
@@ -42,10 +42,7 @@ function App() {
             newFavorites = favouriteItems.concat(product);
         }
         setFavouriteItems(newFavorites);
-        window.localStorage.setItem(
-            'favouriteProduct',
-            JSON.stringify(newFavorites)
-        );
+        localStorage.setItem('favouriteProduct', JSON.stringify(newFavorites));
     };
 
     const handleBasketButtonClick = (product) => {
@@ -65,10 +62,7 @@ function App() {
             newBaskets = basketItems.concat(product);
         }
         setBasketItems(newBaskets);
-        window.localStorage.setItem(
-            'basketProduct',
-            JSON.stringify(newBaskets)
-        );
+        localStorage.setItem('basketProduct', JSON.stringify(newBaskets));
     };
 
     return (
