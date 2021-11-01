@@ -16,8 +16,7 @@ function ShoppingCard({...props}) {
 }
 
 const Title = styled.h2`
-    margin-top: 7rem;
-    margin-bottom: 2rem;
+    margin-top: 4.8rem;
     display: block;
     text-align: center;
 `;

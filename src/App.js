@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Route, Switch} from 'react-router';
 import Categories from 'components/Categories/Categories';
 import Nav from '../src/components/Nav';
@@ -13,6 +13,17 @@ import categories from './data/category.json';
 function App() {
     const [favouriteItems, setFavouriteItems] = useState([]);
     const [basketItems, setBasketItems] = useState([]);
+
+    useEffect(() => {
+        const basketProducts = JSON.parse(
+            localStorage.getItem('basketProduct')
+        );
+        const favouriteProducts = JSON.parse(
+            localStorage.getItem('favouriteProduct')
+        );
+        if (basketProducts) setBasketItems(basketProducts);
+        if (favouriteProducts) setFavouriteItems(favouriteProducts);
+    }, []);
 
     const handleFavoriteButtonClick = (product) => {
         const isFavourite = favouriteItems.includes(product);
@@ -31,6 +42,7 @@ function App() {
             newFavorites = favouriteItems.concat(product);
         }
         setFavouriteItems(newFavorites);
+        localStorage.setItem('favouriteProduct', JSON.stringify(newFavorites));
     };
 
     const handleBasketButtonClick = (product) => {
@@ -50,6 +62,7 @@ function App() {
             newBaskets = basketItems.concat(product);
         }
         setBasketItems(newBaskets);
+        localStorage.setItem('basketProduct', JSON.stringify(newBaskets));
     };
 
     return (
