@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Route, Switch} from 'react-router';
 import Categories from 'components/Categories/Categories';
 import Nav from '../src/components/Nav';
@@ -13,6 +13,17 @@ import categories from './data/category.json';
 function App() {
     const [favouriteItems, setFavouriteItems] = useState([]);
     const [basketItems, setBasketItems] = useState([]);
+
+    useEffect(() => {
+        let basketProducts = JSON.parse(
+            window.localStorage.getItem('basketProduct')
+        );
+        let favouriteProducts = JSON.parse(
+            window.localStorage.getItem('favouriteProduct')
+        );
+        if (basketProducts) setBasketItems(basketProducts);
+        if (favouriteProducts) setFavouriteItems(favouriteProducts);
+    }, []);
 
     const handleFavoriteButtonClick = (product) => {
         const isFavourite = favouriteItems.includes(product);
@@ -31,6 +42,10 @@ function App() {
             newFavorites = favouriteItems.concat(product);
         }
         setFavouriteItems(newFavorites);
+        window.localStorage.setItem(
+            'favouriteProduct',
+            JSON.stringify(newFavorites)
+        );
     };
 
     const handleBasketButtonClick = (product) => {
@@ -50,6 +65,10 @@ function App() {
             newBaskets = basketItems.concat(product);
         }
         setBasketItems(newBaskets);
+        window.localStorage.setItem(
+            'basketProduct',
+            JSON.stringify(newBaskets)
+        );
     };
 
     return (
