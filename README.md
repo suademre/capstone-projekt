@@ -15,7 +15,7 @@ likes to the shopping cart.
 
 <hr>
 
-[Have a look at Shopping Center App on Vercel](https://capstone-projekt-git-localstorage-suademre.vercel.app/)
+[Have a look at Shopping Center App on Vercel](https://capstone-projekt.vercel.app/)
 
 ## Screenshots
 
