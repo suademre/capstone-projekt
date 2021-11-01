@@ -5,7 +5,7 @@ export const HeaderNav = styled.nav`
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-    padding: 40px 30px;
+    padding: 30px 35px;
     font-size: 16px;
     position: fixed;
     top: 0;

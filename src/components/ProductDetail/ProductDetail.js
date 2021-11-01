@@ -7,9 +7,6 @@ function ProductDetail({allProducts, ...props}) {
 
     const productDetail = allProducts.find((product) => product.slug === item);
 
-    console.log(props);
-    console.log(productDetail);
-
     return (
         <>
             <BackButton onClick={() => props.history.goBack()}>

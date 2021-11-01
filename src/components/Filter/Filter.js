@@ -42,12 +42,10 @@ function Filter({filterShow, onToggleFilterShow, filterPrice}) {
 const FilterSection = styled.section`
     position: fixed;
     bottom: 50px;
-    width: 60vw;
-    height: 30vh;
+    padding: 20px;
     background-color: #f8f9f6;
     z-index: 101;
     transition: left 0.4s ease;
-    padding-right: 120px;
     ${({filterShow}) =>
         filterShow
             ? css`
@@ -72,7 +70,7 @@ const FilterDiv = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 30px;
+    padding: 25px 10px;
 `;
 
 const FilterItem = styled.div`

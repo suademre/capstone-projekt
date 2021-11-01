@@ -21,13 +21,11 @@ function Card({
             </CardInfo>
             <IconButtons
                 product={product}
-                activeFavourite={favouriteItems.some(
+                favouriteActiv={favouriteItems.some(
                     (item) => item.id === product.id
                 )}
                 handleFavoriteButtonClick={handleFavoriteButtonClick}
-                activeBaskets={basketItems.some(
-                    (item) => item.id === product.id
-                )}
+                basketActiv={basketItems.some((item) => item.id === product.id)}
                 handleBasketButtonClick={handleBasketButtonClick}
             />
         </CardDiv>
@@ -39,7 +37,7 @@ const CardDiv = styled.div`
     background-color: #f2f3ee;
     display: block;
     color: #000;
-    margin-top: 5rem;
+    margin-top: 4rem;
     box-shadow: 0px 0px 10px #dedede;
     padding: 2.2rem 1.2rem;
 `;

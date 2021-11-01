@@ -19,8 +19,8 @@ IconButtonsItem.args = {
         },
     },
 
-    activeFavourite: true,
-    activeBaskets: true,
+    favouriteActiv: true,
+    basketActiv: true,
 
     handleFavoriteButtonClick: () => console.log('access'),
     handleBasketButtonClick: () => console.log('access'),

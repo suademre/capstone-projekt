@@ -17,8 +17,9 @@ function Favourite({...props}) {
 
 const Title = styled.h2`
     margin-top: 7rem;
-    margin-left: 10rem;
     margin-bottom: 2rem;
+    display: block;
+    text-align: center;
 `;
 
 const Span = styled.span`
