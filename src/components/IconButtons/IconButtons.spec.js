@@ -14,8 +14,8 @@ const product = {
     },
 };
 
-const activeFavourite = true;
-const activeBaskets = true;
+const favouriteActiv = true;
+const basketActiv = true;
 
 describe('IconButtons remder', () => {
     it('remders IconButtons', () => {
@@ -26,8 +26,8 @@ describe('IconButtons remder', () => {
                 product={product}
                 handleFavoriteButtonClick={handleFavoriteButtonClick}
                 handleBasketButtonClick={handleBasketButtonClick}
-                activeFavourite={activeFavourite}
-                activeBaskets={activeBaskets}
+                favouriteActiv={favouriteActiv}
+                basketActiv={basketActiv}
             />
         );
         const buttons = screen.getAllByRole('button');
