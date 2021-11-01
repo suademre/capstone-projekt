@@ -42,12 +42,12 @@ function Filter({filterShow, onToggleFilterShow, filterPrice}) {
 const FilterSection = styled.section`
     position: fixed;
     bottom: 50px;
-    width: 60vw;
-    height: 30vh;
+    width: 50vw;
+    height: 25vh;
     background-color: #f8f9f6;
     z-index: 101;
     transition: left 0.4s ease;
-    padding-right: 120px;
+    padding-right: 90px;
     ${({filterShow}) =>
         filterShow
             ? css`

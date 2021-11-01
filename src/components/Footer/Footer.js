@@ -13,7 +13,7 @@ function Footer({onToggleFilterShow, count}) {
                     Favourite
                 </Link>
             </FooterItem>
-            <FooterItem>Number of Products: {count}</FooterItem>
+            <FooterItem>Products: {count}</FooterItem>
         </FooterMenu>
     );
 }
@@ -29,6 +29,7 @@ const FooterMenu = styled.section`
 `;
 
 const FooterItem = styled.div`
+    font-family: 'Titillium Web', sans-serif;
     padding: 15px 0;
     flex: 1;
     width: 100%;
