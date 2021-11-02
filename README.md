@@ -34,13 +34,17 @@ likes to the shopping cart.
 -   React.js
 -   React Hooks
 -   React Router
--   PropTypes
 -   Styled Component
 -   Local Storage
 -   Storybook
+-   npm
+-   Git
+-   GitHub
+-   Git Workflow
 -   React Testing Library
 -   Jest
 -   Vercel
+-   VS Code
 
 ## Project Setup
 
